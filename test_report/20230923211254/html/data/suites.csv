@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Sep 23 21:13:01 CST 2023","Sat Sep 23 21:13:22 CST 2023","21050","my_selenium_test.venv.lib.site-packages.seleniumrunner-0.0.1-py3.7.egg.seleniumrunner.test_case","这是套件","Test_Case_Class","","","test_start[test_20230923211254_1.yaml]","
+        这是唯一的pytest测试方法 -- 执行不同的参数
+        "

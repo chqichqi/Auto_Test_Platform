@@ -1,0 +1,4 @@
+{'command': 'open', 'desc': '打开登录首页', 'target': 'http://www.baidu.com', 'value': None}
+{'command': 'click', 'desc': '点击输入框使用其具有焦点', 'target': None, 'value': None}
+{'command': 'open', 'desc': '打开登录首页', 'target': 'http://www.baidu.com', 'value': None}
+{'command': 'click', 'desc': '点击输入框使用其具有焦点', 'target': None, 'value': None}

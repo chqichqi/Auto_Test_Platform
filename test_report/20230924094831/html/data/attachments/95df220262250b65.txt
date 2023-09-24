@@ -1,0 +1,2 @@
+{'command': 'open', 'desc': '打开登录首页', 'target': 'www.baidu.com', 'value': None}
+{'command': 'open', 'desc': '打开登录首页', 'target': 'www.baidu.com', 'value': None}

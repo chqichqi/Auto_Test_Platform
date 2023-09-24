@@ -1,0 +1,20 @@
+context:
+  case_name: 百度搜索功能4
+ddts: []
+steps:
+- command: open
+  desc: 打开登录首页
+  target: http://www.baidu.com
+  value: null
+- command: click
+  desc: 点击输入框使用其具有焦点
+  target: null
+  value: null
+- command: send_keys
+  desc: 输入搜索内容
+  target: //input[@id='kw']
+  value: 大学
+- command: click
+  desc: 点击“百度一下”进行搜索
+  target: //input[@id='su']
+  value: ２

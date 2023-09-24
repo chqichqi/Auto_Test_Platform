@@ -1,0 +1,6 @@
+{'command': 'open', 'desc': '打开百度首页', 'target': 'http://www.baidu.com', 'value': None}
+{'command': 'click', 'desc': '点击搜索输入框，使其具有焦点', 'target': "//input[@id='kw']", 'value': None}
+延时参数错误！
+{'command': 'send_keys', 'desc': '输入搜索内容', 'target': "//input[@id='kw']", 'value': '成都'}
+{'command': 'click', 'desc': '点击“百度一下”按钮，进行搜索', 'target': "//input[@id='su']", 'value': '2'}
+{'command': 'assert_visibility_of', 'desc': '断言验证搜索结果展示与否', 'target': "//div[@id='tsn_inner']/div[2]/span[contains(text(),'百度为您找到相关结果约100,000,000个')]", 'value': '百度为您找到相关结果约100,000,000个'}

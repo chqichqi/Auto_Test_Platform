@@ -1,0 +1,13 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Sep 24 10:07:53 CST 2023","Sun Sep 24 10:07:56 CST 2023","3714","my_selenium_test.venv.lib.site-packages.seleniumrunner-0.0.1-py3.7.egg.seleniumrunner.test_case","这是套件","Test_Case_Class","","","test_start[test_20230924100727_4.yaml]","
+        这是唯一的pytest测试方法 -- 执行不同的参数
+        "
+"passed","Sun Sep 24 10:07:46 CST 2023","Sun Sep 24 10:07:53 CST 2023","6074","my_selenium_test.venv.lib.site-packages.seleniumrunner-0.0.1-py3.7.egg.seleniumrunner.test_case","这是套件","Test_Case_Class","","","test_start[test_20230924100727_3.yaml]","
+        这是唯一的pytest测试方法 -- 执行不同的参数
+        "
+"passed","Sun Sep 24 10:07:45 CST 2023","Sun Sep 24 10:07:46 CST 2023","1929","my_selenium_test.venv.lib.site-packages.seleniumrunner-0.0.1-py3.7.egg.seleniumrunner.test_case","这是套件","Test_Case_Class","","","test_start[test_20230924100727_2.yaml]","
+        这是唯一的pytest测试方法 -- 执行不同的参数
+        "
+"passed","Sun Sep 24 10:07:38 CST 2023","Sun Sep 24 10:07:45 CST 2023","6426","my_selenium_test.venv.lib.site-packages.seleniumrunner-0.0.1-py3.7.egg.seleniumrunner.test_case","这是套件","Test_Case_Class","","","test_start[test_20230924100727_1.yaml]","
+        这是唯一的pytest测试方法 -- 执行不同的参数
+        "
