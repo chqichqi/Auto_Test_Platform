@@ -1,1 +1,0 @@
-{"66773a3fcb297b68536645c690012f14":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"75d3d20cff36e3fc","status":"broken","statusDetails":"selenium.common.exceptions.InvalidArgumentException: Message: invalid type: null, expected a string at line 1 column 32","time":{"start":1695520307418,"stop":1695520317669,"duration":10251}}]}}

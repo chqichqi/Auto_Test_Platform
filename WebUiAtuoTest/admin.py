@@ -90,7 +90,7 @@ class WebCaseAdmin(nested_admin.NestedModelAdmin):
         try:
             # test_id = uuid.uuid1().hex
             test_id = datetime.now().strftime("%Y%m%d%H%M%S")   # current date and time
-            path = './tmp/' + test_id
+            path = './test_cases/'
             # 缓存服务配置文件，姑且认为多个用例均使用同一套服务
             server_id = queryset[0].SeleniumHubServer_id
             server_browser = queryset[0].browser
@@ -168,7 +168,7 @@ class WebCaseAdmin(nested_admin.NestedModelAdmin):
 
                 # 导出执行信息到临时文件
 
-                file_name = path + "/test_" + test_id + "_" + str(k+1) + ".yaml"
+                file_name = path + "/test_" + product_obj.itemName + "_" + webcase.caseName + ".yaml"
                 print("filename="+file_name)
                 if not os.path.exists(path):
                     os.makedirs(path)
@@ -204,6 +204,10 @@ class WebCaseAdmin(nested_admin.NestedModelAdmin):
                 report_detail=report_path + "/html/index.html"
             )
             test_report.save()
+            # 测试完成后，将生成测试用例yaml文件全部删除
+            for root, dirs, files in os.walk(path, topdown=False):
+                for name in files:
+                    os.remove(os.path.join(root, name))
 
         except Exception as e:
             modeladmin.message_user(clientRequest, e)
