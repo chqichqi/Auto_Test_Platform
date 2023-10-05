@@ -235,7 +235,7 @@ class WebCaseAdmin(nested_admin.NestedModelAdmin):
 
     send_cases.short_description = '仅生成供CI/CD使用的测试用例'
     send_cases.confirm = '生成用例需要一定时间，请耐心等待，勿重复点击'
-    send_cases.type = 'primary'  # 绿色
+    send_cases.type = 'warning'  # 绿色
 
     run_case.short_description = ' << 执行测试用例 >> '
     run_case.confirm = '执行用例需要一定时间，请耐心等待，勿重复点击'

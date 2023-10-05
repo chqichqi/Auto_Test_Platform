@@ -9,5 +9,8 @@ class TestReportAdmin(admin.ModelAdmin):
     list_display = ['created_time', 'report_type', 'title', 'desc', 'view_detail']
     list_display_links = None       # 禁用编辑按钮
 
+    def has_add_permission(self, request):
+        return False
+
 
 admin.site.register(TestReport, TestReportAdmin)
