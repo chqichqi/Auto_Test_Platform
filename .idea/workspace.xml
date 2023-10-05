@@ -2,375 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1fb065d-4829-48d8-9591-51760f744a03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebUiAtuoTest/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebUiAtuoTest/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUiAtuoTest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebUiAtuoTest/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/data/attachments/7d0b44e10a028c61.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/data/test-cases/eea5350ea118be72.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230923211254/html/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/attachments/559dbab1f4352b25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/attachments/5ee767817599a398.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/attachments/73eb167002af96ba.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/attachments/95df220262250b65.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/attachments/cfc7cb0ac0093ab0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/attachments/d8de87376b6ca427.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/test-cases/ac32b6240f665977.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/test-cases/afa7cafe4f0b5db3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/test-cases/d8bc9abf89fc2d93.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094831/html/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/attachments/110f1a0c75463675.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/attachments/56824099c855992c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/attachments/6d1d824d6c905beb.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/attachments/800517e9f9081ea9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/attachments/8c99d73e6ef93d3e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/attachments/b306bc2dea7f8c8c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/test-cases/75d3d20cff36e3fc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/test-cases/aab1ae1a96fc09ae.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/test-cases/abeb242729827f58.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924094950/html/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/data/attachments/bea06a5b3f7d5f21.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/data/test-cases/c7e86aa5203502eb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924095909/html/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/data/attachments/89c23de252830551.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/data/attachments/a18bd5aa54cf4487.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/data/attachments/a7fa722a862a59cf.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/data/attachments/b0b260e205342ad1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/data/test-cases/2432722c96ba476e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/data/test-cases/55206f5a8b18b7e5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/data/test-cases/771cdd2dffd55898.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/data/test-cases/bfc86494fce50d60.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924100727/html/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/data/attachments/3f79570099744521.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/data/attachments/e85d5ca77ccaed2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/data/attachments/ef87848ecc8355f1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/data/attachments/f265c737ff2eb18d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/data/test-cases/a2c1549e0ead99d9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/data/test-cases/d5860948f20c0319.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/data/test-cases/d79858e4c40bb5d4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/data/test-cases/fcf55982bd16b3b5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924101106/html/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/data/attachments/8393a7ee51efc5da.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/data/attachments/c12947e508dc16b5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/data/attachments/e1a28c305d776acd.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/data/attachments/e87533d6278ee6a1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/data/test-cases/122e77405804ac88.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/data/test-cases/232534ef3ac1d3bb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/data/test-cases/cf6c1809e6c68126.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/data/test-cases/ec231550766b57e1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/20230924112121/html/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/0ebf73bb-98ab-4498-9848-f4f0416102a6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/39d35405-320f-46c9-adaf-9a7262023f8d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/44738bd4-d89b-479d-b762-0a3b4534cabb-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/47fbb264-0c33-40e3-9cda-4d2c7e686762-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/6d80dc35-2a78-46ab-9e32-01323f74e82f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/82aec8f9-4be5-4b4c-a96f-3ce092ddce7e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/84b14bda-9843-4e21-be94-7be7766cdd4a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/9ac8187a-8d1d-431d-95bf-ddfee1292d4e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/a31b850d-1709-4b11-9763-4e757424bfb2-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/a4692f05-dabf-4321-aac4-9aa04ca0c4b3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/b19cc42f-57bf-414f-b3f9-42910fc4fec8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/dfdd04f4-f48f-45b1-a33f-d394b9db5301-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/e24f69b2-2515-4211-837b-7465c42327c1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/e3ede5a1-56f8-48bf-a4a7-3379615a5d6d-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/ed72aa35-52b3-411b-9fbf-7e5469f9d29f-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923150119/test_20230923150119_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923150119/test_20230923150119_2.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923154054/test_20230923154054_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923154054/test_20230923154054_2.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923154320/test_20230923154320_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923154856/test_20230923154856_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923162309/test_20230923162309_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923163607/test_20230923163607_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923163607/test_20230923163607_2.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923164322/test_20230923164322_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923164322/test_20230923164322_2.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923165046/test_20230923165046_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923165046/test_20230923165046_2.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923165558/test_20230923165558_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923165558/test_20230923165558_2.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923170021/test_20230923170021_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923170021/test_20230923170021_2.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923170323/test_20230923170323_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923200502/test_20230923200502_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923200740/test_20230923200740_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923201944/test_20230923201944_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923203910/test_20230923203910_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230923211254/test_20230923211254_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230924094831/test_20230924094831_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230924094950/test_20230924094950_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230924095909/test_20230924095909_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230924100727/test_20230924100727_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230924100727/test_20230924100727_2.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230924100727/test_20230924100727_3.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230924100727/test_20230924100727_4.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230924101106/test_20230924101106_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230924101106/test_20230924101106_2.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230924101106/test_20230924101106_3.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230924101106/test_20230924101106_4.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230924112121/test_20230924112121_1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230924112121/test_20230924112121_2.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230924112121/test_20230924112121_3.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/20230924112121/test_20230924112121_4.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/EGG-INFO/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/EGG-INFO/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/EGG-INFO/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/EGG-INFO/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/EGG-INFO/not-zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/EGG-INFO/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/EGG-INFO/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/pytest_utils/Assert_class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/pytest_utils/DataCenter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/pytest_utils/ReadCaseData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/pytest_utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/test_case/TestCaseClass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/test_case/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/test_case/mymain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/ui_framework/Executor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/ui_framework/UiCommand.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/ui_framework/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -403,6 +58,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/chqichqi/Auto_Test_Platform.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="2UO3mkOypf7j241S76rvyEhxtbb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -481,18 +144,50 @@
       <workItem from="1695437960047" duration="27102000" />
       <workItem from="1695518975509" duration="3987000" />
       <workItem from="1695539768896" duration="2087000" />
-      <workItem from="1695902759301" duration="2923000" />
+      <workItem from="1695902759301" duration="3070000" />
+      <workItem from="1696490576606" duration="7537000" />
     </task>
+    <task id="LOCAL-00001" summary="将每次测试生成的yaml文件，在测试完成后立即删除">
+      <created>1695905749165</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695905749170</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="将每次测试生成的yaml文件，在测试完成后立即删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="将每次测试生成的yaml文件，在测试完成后立即删除" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1693705817114">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672@0.0.1280.672" timestamp="1693705817114" />
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1695905745130">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.672@0.0.1280.672" timestamp="1695905745130" />
+    <state x="93" y="93" width="1095" height="487" key="DiffContextDialog" timestamp="1696504389940">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="93" y="93" width="1095" height="487" key="DiffContextDialog/0.0.1280.672@0.0.1280.672" timestamp="1696504389940" />
     <state x="421" y="92" key="FileChooserDialogImpl" timestamp="1693660140472">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -501,6 +196,10 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1695903698997" />
+    <state x="437" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1696504328363">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="437" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.672@0.0.1280.672" timestamp="1696504328363" />
     <state x="343" y="-1" width="672" height="678" key="search.everywhere.popup" timestamp="1694916884256">
       <screen x="0" y="0" width="1280" height="672" />
     </state>

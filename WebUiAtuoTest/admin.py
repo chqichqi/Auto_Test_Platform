@@ -83,14 +83,12 @@ class WebCaseAdmin(nested_admin.NestedModelAdmin):
     list_display_links = ('caseName', 'Product', 'SeleniumHubServer', 'FrontPostManager', 'browser', 'created_time')
     list_per_page = 10    # 每页展示记录数
     ordering = ('created_time',)    # 创建时间升序排列
-    actions = ['run_case']
+    actions = ['send_cases', 'run_case', ]
 
     @admin.action(permissions=['change'])
     def run_case(modeladmin, clientRequest, queryset):
         try:
-            # test_id = uuid.uuid1().hex
             test_id = datetime.now().strftime("%Y%m%d%H%M%S")   # current date and time
-            path = './test_cases/'
             # 缓存服务配置文件，姑且认为多个用例均使用同一套服务
             server_id = queryset[0].SeleniumHubServer_id
             server_browser = queryset[0].browser
@@ -98,9 +96,65 @@ class WebCaseAdmin(nested_admin.NestedModelAdmin):
             print('product_id=' + str(product_id))
             product_obj = Product.objects.filter(id=product_id).first()
             print('case_name'+product_obj.itemName)
+            path = './test_cases/'
+            modeladmin.send_yaml_file(modeladmin, clientRequest, queryset, path)
+            # 执行测试用例 使用工具封装里面的webrun命令
+            server = SeleniumHubServer.objects.filter(id=server_id).first()
+            if str(server.serverType).__eq__("本地"):
+                driver = server_browser
+                print('本地')
+            else:  # 远程
+                driver = "REMOTE"
+                print('远程')
+            report_path = "/test_report/" + test_id
+            test_code = subprocess.call("webrun --driver=" + driver
+                                        + " --cases=" + path
+                                        + " --report-path=" + report_path
+                                        + " --host=" + server.serverAddress
+                                        + " --port=" + str(server.serverPort)
+                                        + " --capability=" + server_browser,
+                                        shell=True)
+            if test_code == 0:
+                test_stats = '成功'
+            else:
+                test_stats = '失败'
+            # 保存测试记录及报告信息
+            test_report = TestReport(
+                title=product_obj.itemName,
+                report_type="Web自动化测试",
+                desc="执行状态:" + test_stats,
+                report_detail=report_path + "/html/index.html"
+            )
+            test_report.save()
+            # 测试完成后，将生成测试用例yaml文件全部删除
+            for root, dirs, files in os.walk(path, topdown=False):
+                for name in files:
+                    os.remove(os.path.join(root, name))
+
+        except Exception as e:
+            modeladmin.message_user(clientRequest, e)
+        else:
+            modeladmin.message_user(clientRequest, '执行完毕，请前往指定页面查看测试报告')
+
+    @admin.action(permissions=['change'])
+    def send_cases(modeladmin, clientRequest, queryset):
+        path = './test_cases_jenkins/'
+        modeladmin.send_yaml_file(modeladmin, clientRequest, queryset, path)
+
+    def send_yaml_file(self, modeladmin, clientRequest, queryset, path):
+        try:
+            # 每次生成yaml测试用例之前，将已经存在的测试用例yaml文件全部删除
+            for root, dirs, files in os.walk(path, topdown=False):
+                for name in files:
+                    os.remove(os.path.join(root, name))
+
+            product_id = queryset[0].Product_id
+            print('product_id=' + str(product_id))
+            product_obj = Product.objects.filter(id=product_id).first()
+            # print('case_name' + product_obj.itemName)
             for k in range(len(queryset)):
                 webcase = queryset[k]
-                print("webcaseId="+str(webcase.id))
+                print("webcaseId=" + str(webcase.id))
                 # 开始组装用例执行所需要的yaml文件，先组装dict, 再导出yaml
                 caseinfo_dic = {}
                 # 1.查询环境对应的变量信息
@@ -141,7 +195,7 @@ class WebCaseAdmin(nested_admin.NestedModelAdmin):
                 # 添加前置条件流程
                 pid = webcase.FrontPostManager_id
                 print('pid=' + str(pid))
-                if pid is not None:     # 表示没有前/后置条件
+                if pid is not None:  # 表示没有前/后置条件
                     p_case = FrontPostManager.objects.filter(id=pid).first()
                     print('p_case.id=' + str(p_case.id))
                     if p_case.id is not None:
@@ -163,56 +217,25 @@ class WebCaseAdmin(nested_admin.NestedModelAdmin):
 
                 print('steps=' + str(step_list))
                 caseinfo_dic.update({'steps': step_list})
-
-                print("caseinfo_dic="+str(caseinfo_dic))
+                print("caseinfo_dic=" + str(caseinfo_dic))
 
                 # 导出执行信息到临时文件
-
                 file_name = path + "/test_" + product_obj.itemName + "_" + webcase.caseName + ".yaml"
-                print("filename="+file_name)
+                print("filename=" + file_name)
                 if not os.path.exists(path):
                     os.makedirs(path)
                 w_file = open(file_name, "w+", encoding='utf-8')
                 yaml.dump(caseinfo_dic, w_file, encoding='utf-8', allow_unicode=True)
                 w_file.close()
                 print('yaml write success')
-
-            # 执行测试用例 使用工具封装里面的webrun命令
-            server = SeleniumHubServer.objects.filter(id=server_id).first()
-            if str(server.serverType).__eq__("本地"):
-                driver = server_browser
-                print('本地')
-            else:  # 远程
-                driver = "REMOTE"
-                print('远程')
-            report_path = "/test_report/" + test_id
-            test_code = subprocess.call("webrun --driver=" + driver
-                                        + " --cases=" + path
-                                        + " --report-path=" + report_path
-                                        + " --host=" + server.serverAddress
-                                        + " --port=" + str(server.serverPort)
-                                        + " --capability=" + server_browser)
-            if test_code == 0:
-                test_stats = '成功'
-            else:
-                test_stats = '失败'
-            # 保存测试记录及报告信息
-            test_report = TestReport(
-                title=product_obj.itemName,
-                report_type="Web自动化测试",
-                desc="执行状态:" + test_stats,
-                report_detail=report_path + "/html/index.html"
-            )
-            test_report.save()
-            # 测试完成后，将生成测试用例yaml文件全部删除
-            for root, dirs, files in os.walk(path, topdown=False):
-                for name in files:
-                    os.remove(os.path.join(root, name))
-
         except Exception as e:
             modeladmin.message_user(clientRequest, e)
         else:
-            modeladmin.message_user(clientRequest, '执行完毕，请前往指定页面查看测试报告')
+            modeladmin.message_user(clientRequest, '生成测试用例完毕')
+
+    send_cases.short_description = '仅生成供CI/CD使用的测试用例'
+    send_cases.confirm = '生成用例需要一定时间，请耐心等待，勿重复点击'
+    send_cases.type = 'primary'  # 绿色
 
     run_case.short_description = ' << 执行测试用例 >> '
     run_case.confirm = '执行用例需要一定时间，请耐心等待，勿重复点击'

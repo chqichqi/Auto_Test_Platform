@@ -701,3 +701,144 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
 1695905587312	Marionette	INFO	Stopped listening on port 49235
+1696496577337	geckodriver	INFO	Listening on 127.0.0.1:58641
+1696496580352	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilePvOaZT"
+1696496581682	Marionette	INFO	Marionette enabled
+1696496581697	Marionette	INFO	Listening on port 58653
+Read port: 58653
+Read port: 58653
+1696496583102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilePvOaZT\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+JavaScript warning: http://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+1696496672791	Marionette	INFO	Stopped listening on port 58653
+[Parent 23844, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1696496880137	geckodriver	INFO	Listening on 127.0.0.1:59513
+1696496882306	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile3YJa1r"
+1696496884406	Marionette	INFO	Marionette enabled
+1696496884412	Marionette	INFO	Listening on port 59525
+Read port: 59525
+1696496884793	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile3YJa1r\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+JavaScript warning: http://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+1696497014537	Marionette	INFO	Stopped listening on port 59525
+[Parent 24528, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1696497759710	geckodriver	INFO	Listening on 127.0.0.1:60584
+1696497762123	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileNggvNl"
+1696497763254	Marionette	INFO	Marionette enabled
+1696497763262	Marionette	INFO	Listening on port 60598
+Read port: 60598
+1696497763780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileNggvNl\\search.json.mozlz4", (void 0)))
+[Parent 13968, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript warning: http://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+1696497828638	Marionette	INFO	Stopped listening on port 60598
+1696498003308	geckodriver	INFO	Listening on 127.0.0.1:61484
+1696498006324	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileqCVVWp"
+1696498007458	Marionette	INFO	Marionette enabled
+1696498007476	Marionette	INFO	Listening on port 61496
+Read port: 61496
+Read port: 61496
+1696498008883	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileqCVVWp\\search.json.mozlz4", (void 0)))
+JavaScript warning: http://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+1696498030700	Marionette	INFO	Stopped listening on port 61496
+[Parent 24596, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1696498262474	geckodriver	INFO	Listening on 127.0.0.1:62067
+1696498265385	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileETzRG1"
+1696498270582	Marionette	INFO	Marionette enabled
+1696498270593	Marionette	INFO	Listening on port 62079
+Read port: 62079
+Read port: 62079
+1696498272103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileETzRG1\\search.json.mozlz4", (void 0)))
+JavaScript warning: http://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+1696498324906	Marionette	INFO	Stopped listening on port 62079
+[Parent 14656, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1696498428899	geckodriver	INFO	Listening on 127.0.0.1:62602
+1696498431882	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileNdiaVC"
+1696498433021	Marionette	INFO	Marionette enabled
+1696498433036	Marionette	INFO	Listening on port 62615
+Read port: 62615
+1696498434164	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileNdiaVC\\search.json.mozlz4", (void 0)))
+JavaScript warning: http://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+1696498544957	Marionette	INFO	Stopped listening on port 62615
+[Parent 4716, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1696501006478	geckodriver	INFO	Listening on 127.0.0.1:64196
+1696501009455	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiles1MPhr"
+1696501010748	Marionette	INFO	Marionette enabled
+1696501010758	Marionette	INFO	Listening on port 64208
+Read port: 64208
+1696501011473	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiles1MPhr\\search.json.mozlz4", (void 0)))
+1696501022041	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: http://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+1696501035050	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+1696501063849	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+1696501065258	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+1696501112623	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+1696501191451	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.baidu.com."
+1696501217251	Marionette	INFO	Stopped listening on port 64208
+[Parent 23860, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

@@ -48,8 +48,8 @@ class FrontPostManager(models.Model):
     desc = models.CharField('描述', max_length=200)
 
     class Meta:
-        verbose_name = '前/后置条件管理'
-        verbose_name_plural = '前/后置条件管理'
+        verbose_name = '前置条件管理'
+        verbose_name_plural = '前置条件管理'
 
     def __str__(self):
         return self.name
@@ -113,7 +113,7 @@ COMMANDS = (
 
 
 class FrontPostStep(models.Model):
-    FrontPostManager = models.ForeignKey('FrontPostManager', on_delete=models.CASCADE, verbose_name="前/后置条件")
+    FrontPostManager = models.ForeignKey('FrontPostManager', on_delete=models.CASCADE, verbose_name="前置条件")
     order = models.IntegerField('步骤', null=False, default=1)
     command = models.CharField('操作关键字', max_length=255, choices=COMMANDS)
     target = models.CharField('操作对象',  max_length=255, null=True, blank=True)
@@ -121,8 +121,8 @@ class FrontPostStep(models.Model):
     desc = models.CharField('操作描述', max_length=255, null=True, blank=True)
 
     class Meta:
-        verbose_name = '前/后置用例'
-        verbose_name_plural = '前/后置用例'
+        verbose_name = '前置用例'
+        verbose_name_plural = '前置用例'
         ordering = ('order',)
 
     def __str__(self):
@@ -153,7 +153,7 @@ BROWSER_CHOICE = (
 
 class WebCase(models.Model):
     FrontPostManager = models.ForeignKey('FrontPostManager', on_delete=models.CASCADE,
-                                         null=True, blank=True, verbose_name="前/后置用例步骤")
+                                         null=True, blank=True, verbose_name="前置用例步骤")
     Product = models.ForeignKey('Product', on_delete=models.CASCADE, verbose_name="所属项目")
     SeleniumHubServer = models.ForeignKey('SeleniumHubServer', on_delete=models.CASCADE,
                                           verbose_name="SeleniumServer服务器")
