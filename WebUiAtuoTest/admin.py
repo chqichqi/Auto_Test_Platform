@@ -97,7 +97,7 @@ class WebCaseAdmin(nested_admin.NestedModelAdmin):
             product_obj = Product.objects.filter(id=product_id).first()
             print('case_name'+product_obj.itemName)
             path = './test_cases/'
-            modeladmin.send_yaml_file(modeladmin, clientRequest, queryset, path)
+            modeladmin.send_yaml_file(modeladmin, clientRequest, queryset, path, 1)
             # 执行测试用例 使用工具封装里面的webrun命令
             server = SeleniumHubServer.objects.filter(id=server_id).first()
             if str(server.serverType).__eq__("本地"):
@@ -141,7 +141,7 @@ class WebCaseAdmin(nested_admin.NestedModelAdmin):
         path = './test_cases_jenkins/'
         modeladmin.send_yaml_file(modeladmin, clientRequest, queryset, path)
 
-    def send_yaml_file(self, modeladmin, clientRequest, queryset, path):
+    def send_yaml_file(self, modeladmin, clientRequest, queryset, path, do_type=0):
         try:
             # 每次生成yaml测试用例之前，将已经存在的测试用例yaml文件全部删除
             for root, dirs, files in os.walk(path, topdown=False):
@@ -231,7 +231,8 @@ class WebCaseAdmin(nested_admin.NestedModelAdmin):
         except Exception as e:
             modeladmin.message_user(clientRequest, e)
         else:
-            modeladmin.message_user(clientRequest, '生成测试用例完毕')
+            if do_type == 0:
+                modeladmin.message_user(clientRequest, '生成测试用例完毕')
 
     send_cases.short_description = '仅生成供CI/CD使用的测试用例'
     send_cases.confirm = '生成用例需要一定时间，请耐心等待，勿重复点击'

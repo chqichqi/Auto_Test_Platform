@@ -27,8 +27,8 @@ SECRET_KEY = 'django-insecure-m6^8u=z#8hd5hc8m=bpe@obtpf+=z^)x$yt8b%mn4n3_d&1)za
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+# ALLOWED_HOSTS = []     # 其表示只能通过127.0.0.1或localhost等本地方式访问
+ALLOWED_HOSTS = ['*']    # 其中*表示任何形式均可访问，即远程域名或本地均可
 
 # Application definition
 
@@ -84,10 +84,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  # 数据库引擎
         'NAME': 'django_simpleui',       # 数据库名称（以实现创建的数据库为准）
-        'HOST': 'localhost',                   # 数据库IP地址，
+        'HOST': '192.168.86.1',                # 数据库IP地址，
         'PORT': 3306,                          # 数据库访问端口
         'USER': 'root',                        # 数据库登录用户名
-        'PASSWORD': '123456',                 # 数据库登录密码
+        'PASSWORD': '123456',                  # 数据库登录密码
         'CHARSET': 'utf-8'
     }
 }
@@ -146,3 +146,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #  隐藏右侧SimpleUI广告链接和使用分析
 SIMPLEUI_HOME_INFO = False
 SIMPLEUI_ANALYSIS = False
+

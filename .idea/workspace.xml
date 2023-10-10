@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1fb065d-4829-48d8-9591-51760f744a03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/EGG-INFO/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/EGG-INFO/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/EGG-INFO/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/EGG-INFO/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/EGG-INFO/not-zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/EGG-INFO/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/EGG-INFO/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/pytest_utils/Assert_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/pytest_utils/DataCenter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/pytest_utils/ReadCaseData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/pytest_utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/test_case/TestCaseClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/test_case/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/test_case/mymain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/ui_framework/Executor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/ui_framework/UiCommand.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/ui_framework/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebUiAtuoTest/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebUiAtuoTest/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_simpleUi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_simpleUi/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simpleUi_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/simpleUi_app/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +81,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/Scripts" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -124,7 +147,10 @@
       <workItem from="1695518975509" duration="3987000" />
       <workItem from="1695539768896" duration="2087000" />
       <workItem from="1695902759301" duration="3070000" />
-      <workItem from="1696490576606" duration="8421000" />
+      <workItem from="1696490576606" duration="9586000" />
+      <workItem from="1696595842279" duration="2766000" />
+      <workItem from="1696682971445" duration="4563000" />
+      <workItem from="1696940073914" duration="874000" />
     </task>
     <task id="LOCAL-00001" summary="将每次测试生成的yaml文件，在测试完成后立即删除">
       <created>1695905749165</created>
@@ -140,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696504406062</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="将每次测试生成的yaml文件，在测试完成后立即删除">
+      <created>1696505167419</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696505167419</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +184,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -166,10 +201,10 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672@0.0.1280.672" timestamp="1693705817114" />
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1696504404298">
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1696505166038">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.672@0.0.1280.672" timestamp="1696504404298" />
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.672@0.0.1280.672" timestamp="1696505166038" />
     <state x="93" y="93" width="1095" height="487" key="DiffContextDialog" timestamp="1696504441036">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -178,14 +213,16 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="421" y="92" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1693660140472" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1695903698997">
-      <screen x="0" y="0" width="1280" height="672" />
+    <state x="170" y="0" key="SettingsEditor" timestamp="1696940365858">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1695903698997" />
-    <state x="437" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1696504328363">
-      <screen x="0" y="0" width="1280" height="672" />
+    <state x="170" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1696940365858" />
+    <state x="548" y="242" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1696689130529">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="437" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.672@0.0.1280.672" timestamp="1696504328363" />
+    <state x="548" y="242" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1696689130528" />
     <state x="343" y="-1" width="672" height="678" key="search.everywhere.popup" timestamp="1694916884256">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
