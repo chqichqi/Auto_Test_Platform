@@ -1,4 +1,5 @@
 # coding=utf-8
+import sys
 import socket
 from django.db import models
 from django.utils.html import format_html
@@ -24,11 +25,23 @@ class TestReport(models.Model):
         # btn_str = '<input name="view_detail" onclick="javascript:window.open(window.location.protocol +\'//\' + window.location.host + \'{}\');" ' \
         #           'type="button" id="btn_assign_{}" ' \
         #           'value="查看测试报告详情">'.format("/django_simpleUi"+self.report_detail, self.id)
-        host_name = socket.gethostname()
-        print('host_name=' + str(host_name))
-        ip = socket.gethostbyname(host_name)
-        print('ip=' + str(ip))
-        ip = 'localhost'
+
+        if sys.platform.startswith('linux'):
+            s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            s.connect(('8.8.8.8', 80))
+            # print('host_name=' + str(s.getsockname()))
+            ip = s.getsockname()[0]
+            print('当前系统为 Linux')
+        elif sys.platform.startswith('win'):
+            ip = 'localhost'
+            print('当前系统为 Windows')
+        elif sys.platform.startswith('darwin'):
+            ip = 'localhost'
+            print('当前系统为 macOS')
+        else:
+            ip = 'localhost'
+            print('无法识别当前系统')
+
         btn_str = '<input name="view_detail" onclick="javascript:window.open(window.location.protocol +\'//' +\
                   ip+':63342{}\');" type="button" id="btn_assign_{}" ' \
                   'value="查看测试报告详情">'.format("/django_simpleUi"+self.report_detail, self.id)

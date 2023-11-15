@@ -1,4 +1,4 @@
-const $ = require('jquery');
+import $ from "jquery";
 
 /**
  * For grappelli 2.14, converts a django.jQuery instance to a grp.jQuery
@@ -7,7 +7,7 @@ const $ = require('jquery');
  * object that was passed in, unchanged.
  */
 function grp$($sel) {
-  if (typeof window.grp === 'undefined') {
+  if (typeof window.grp === "undefined") {
     return $($sel);
   }
   if (window.grp.jQuery.fn.init === $.fn.init) {
@@ -20,4 +20,4 @@ function grp$($sel) {
   return $grpSel;
 }
 
-module.exports = grp$;
+export default grp$;
