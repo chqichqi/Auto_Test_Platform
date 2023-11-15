@@ -1,140 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1fb065d-4829-48d8-9591-51760f744a03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebUiAtuoTest/static/admin/custom_admin_styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleUi_app/signals.py" afterDir="false" />
+    <list default="true" id="f1fb065d-4829-48d8-9591-51760f744a03" name="Default Changelist" comment="测试用例新增记录时，添加各种情况的数据校验；删除测试报告记录同时删除相关的文件夹">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUiAtuoTest/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebUiAtuoTest/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUiAtuoTest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebUiAtuoTest/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_simpleUi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_simpleUi/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleUi_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/simpleUi_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleUi_app/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/simpleUi_app/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleUi_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simpleUi_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.2.20.dist-info/AUTHORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.2.20.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.2.20.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.2.20.dist-info/LICENSE.python" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.2.20.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.2.20.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.2.20.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.2.20.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.2.20.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PyYAML-6.0.1.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PyYAML-6.0.1.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PyYAML-6.0.1.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PyYAML-6.0.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PyYAML-6.0.1.dist-info/REQUESTED" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PyYAML-6.0.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PyYAML-6.0.1.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/ui_framework/Executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/ui_framework/Executor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/ui_framework/UiCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/ui_framework/UiCommand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/base_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/base_site.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/utils/encoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/utils/encoding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/utils/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/utils/text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_nested_admin-3.3.3.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_nested_admin-3.3.3.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_nested_admin-3.3.3.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_nested_admin-3.3.3.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_nested_admin-3.3.3.dist-info/REQUESTED" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_nested_admin-3.3.3.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_nested_admin-3.3.3.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/importlib_metadata-2.1.3.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/importlib_metadata-2.1.3.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/importlib_metadata-2.1.3.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/importlib_metadata-2.1.3.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/importlib_metadata-2.1.3.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/importlib_metadata-2.1.3.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/importlib_metadata/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/importlib_metadata/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/importlib_metadata/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/importlib_metadata/_compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/formsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/formsets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/nested.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/nested.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/polymorphic.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/polymorphic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/dist/nested_admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/dist/nested_admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/dist/nested_admin.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/dist/nested_admin.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/dist/nested_admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/dist/nested_admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/dist/nested_admin.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/dist/nested_admin.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/dist/nested_admin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/dist/nested_admin.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/dist/nested_admin.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/dist/nested_admin.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/dist/nested_admin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/dist/nested_admin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/dist/nested_admin.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/dist/nested_admin.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/grp$.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/grp$.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/jquery.djangoformset.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/jquery.djangoformset.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/jquery.djnutils.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/jquery.djnutils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/jquery.shim.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/jquery.shim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/jquery.ui.djnsortable.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/jquery.ui.djnsortable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/jquery.ui.nestedsortable.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/jquery.ui.nestedsortable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/regexquote.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/regexquote.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/sortable.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/sortable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested-admin/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested_admin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/static/nested_admin/src/nested_admin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/templates/nesting/admin/includes/grappelli_inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/templates/nesting/admin/includes/grappelli_inline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/templates/nesting/admin/includes/inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/templates/nesting/admin/includes/inline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/templates/nesting/admin/inlines/grappelli_stacked.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/templates/nesting/admin/inlines/grappelli_stacked.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/templates/nesting/admin/inlines/grappelli_tabular.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/templates/nesting/admin/inlines/grappelli_tabular.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/templatetags/nested_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/templatetags/nested_admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/admin_widgets/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/admin_widgets/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/admin_widgets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/admin_widgets/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/admin_widgets/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/admin_widgets/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/drag_drop.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/drag_drop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/gfk/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/gfk/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/gfk/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/gfk/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/gfk/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/gfk/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/grp_collapsible_tabular_inline/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/grp_collapsible_tabular_inline/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/grp_collapsible_tabular_inline/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/grp_collapsible_tabular_inline/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/grp_collapsible_tabular_inline/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/grp_collapsible_tabular_inline/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/identical_prefixes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/identical_prefixes/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/identical_prefixes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/identical_prefixes/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/identical_prefixes/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/identical_prefixes/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/issue_122/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/issue_122/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/issue_122/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/issue_122/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/mixed_permissions_min_num_bug/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/mixed_permissions_min_num_bug/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/mixed_permissions_min_num_bug/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/mixed_permissions_min_num_bug/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/mixed_permissions_min_num_bug/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/mixed_permissions_min_num_bug/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_delete_validationerrors/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_delete_validationerrors/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_delete_validationerrors/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_delete_validationerrors/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_add_filtering/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_add_filtering/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_add_filtering/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_add_filtering/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_add_filtering/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_add_filtering/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_mixed_nesting/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_mixed_nesting/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_mixed_nesting/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_mixed_nesting/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_mixed_nesting/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_mixed_nesting/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_std/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_std/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_std/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_std/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_std/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/nested_polymorphic/test_polymorphic_std/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/one_deep/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/one_deep/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/one_deep/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/one_deep/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/one_deep/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/one_deep/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/three_deep/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/three_deep/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/three_deep/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/three_deep/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/three_deep/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/three_deep/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/two_deep/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/two_deep/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/two_deep/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/two_deep/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/two_deep/test_permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/two_deep/test_permissions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/two_deep/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/two_deep/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/tests/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/nested_admin/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/_yaml.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/_yaml.cp37-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/representer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/representer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/resolver.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/resolver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/scanner.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/scanner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/django-admin.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/django-admin.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +141,7 @@
       <workItem from="1699618209570" duration="8681000" />
       <workItem from="1699759943799" duration="6707000" />
       <workItem from="1699963018565" duration="4988000" />
-      <workItem from="1700050889693" duration="4707000" />
+      <workItem from="1700050889693" duration="5555000" />
     </task>
     <task id="LOCAL-00001" summary="将每次测试生成的yaml文件，在测试完成后立即删除">
       <created>1695905749165</created>
@@ -303,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696941202156</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="测试用例新增记录时，添加各种情况的数据校验；删除测试报告记录同时删除相关的文件夹">
+      <created>1700055708537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700055708537</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,15 +204,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="测试用例新增记录时，添加各种情况的数据校验；删除测试报告记录同时删除相关的文件夹" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="330" y="65" key="#Deployment" timestamp="1700057775216">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="330" y="65" key="#Deployment/0.0.1536.816@0.0.1536.816" timestamp="1700057775216" />
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1693705817114">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672@0.0.1280.672" timestamp="1693705817114" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1700055648242">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1700057781821">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.672@0.0.1280.672" timestamp="1696505166038" />
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1700055648242" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1700057781821" />
     <state x="93" y="93" width="1095" height="487" key="DiffContextDialog" timestamp="1696504441036">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
