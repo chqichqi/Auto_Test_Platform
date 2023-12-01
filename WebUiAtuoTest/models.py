@@ -1,8 +1,8 @@
 # coding=utf-8
-import tkinter.messagebox
 from tkinter import *
-from django.core.exceptions import ValidationError
-from django.db import models, router
+
+from django.db import models
+
 
 # Create your models here.
 
@@ -11,7 +11,7 @@ class Product(models.Model):
     """
     配置项目/产品
     """
-    itemName = models.CharField('项目名称', max_length=100)
+    itemName = models.CharField('项目名称+版本', max_length=100)
     itemDesc = models.CharField('项目描述', max_length=200, null=True, blank=True)
     itemManager = models.CharField('项目负责人', max_length=30, null=True, blank=True)
     createTime = models.DateTimeField('创建时间', auto_now=True)      # 自动获取当前时间
@@ -63,46 +63,47 @@ class FrontPostManager(models.Model):
 COMMANDS = (
     ('open', '打开'),  # 无value、desc
     ('send_keys', '输入'),  # 无desc
-    ('clear', '清空'),   # 无value、desc
-    ('click', '点击'),    # 无desc
-    ('submit', '提交'),   # 无value、desc
-    ('close', '关闭'),      # 无target、value、desc
-    ('double_click', '双击'),   # 无value、desc
+    ('clear', '清空'),  # 无value、desc
+    ('click', '点击'),  # 无desc
+    ('submit', '提交'),  # 无value、desc
+    ('close', '关闭'),  # 无target、value、desc
+    ('double_click', '双击'),  # 无value、desc
     ('drag_and_drop_to_object', '拖拽到对象'),  # 无desc
     ('execute_script', '执行脚本'),  # 无desc
     ('execute_async_script', '执行异步脚本'),  # 无desc
     ('mouse_over', '鼠标悬停'),  # 无value、desc
-    ('pause', '等待'),   # 无value、desc
+    ('mouse_click_hold', '鼠标按下保持'),
+    ('pause', '等待'),  # 无value、desc
     ('select', '选择'),  # 无desc
     ('select_frame', '选择frame'),  # 无value、desc
     ('switch_to_parent_frame', '返回上级frame'),  # 无target、value、desc
     ('select_window', '选择窗口'),  # 无value、desc
-    ('store', '存储'),  # 无desc
+    ('store', '存储对象'),  # 无desc
     ('store_text', '存储文本'),  # 无desc
-    ('store_title', '存储标题'),  # 无target、desc
-    ('store_value', '存储值'),   # 无desc
+    ('store_title', '存储页面标题'),  # 无target、desc
+    ('store_value', '存储属性值'),  # 无desc
     ('store_xpath_count', '存储xpath总数'),  # 无desc
     ('add_cookie', '添加cookie'),  # 无desc
     ('wait_for_element_not_visible', '等待元素不可见'),
-    ('wait_for_element_present', '等待元素发送'),
+    ('wait_for_element_present', '等待元素出现'),
     ('wait_for_element_visible', '等待元素可见'),
     ('assert_variable', '断言变量'),
-    ('assert_title_is', '断言标题是'),               # 无target
-    ('assert_title_contains', 'assert_title_包含'),  # 无target
-    ('assert_url_contains', 'assert_url_包含'),     # 无target
-    ('assert_url_matches', 'assert_url_匹配'),      # 无target
-    ('assert_url_to_be', 'assert_url_to_be'),       # 无target
-    ('assert_url_changes', 'assert_url_变化'),      # 无target
-    ('assert_presence_of_element_located', 'assert_presence_of_element_located'),    # 无value
+    ('assert_title_is', '断言标题是'),  # 无target
+    ('assert_title_contains', 'assert_标题包含'),  # 无target
+    ('assert_url_contains', 'assert_Url包含'),  # 无target
+    ('assert_url_matches', 'assert_Url匹配'),  # 无target
+    ('assert_url_to_be', 'assert_url_to_be'),  # 无target
+    ('assert_url_changes', 'assert_Url更新'),  # 无target
+    ('assert_presence_of_element_located', 'assert_presence_of_element_located'),  # 无value
     ('assert_presence_of_all_elements_located', 'assert_presence_of_all_elements_located'),  # 无value
     ('assert_visibility_of_element_located', 'assert_visibility_of_element_located'),  # 无value
     ('assert_invisibility_of_element_located', 'assert_invisibility_of_element_located'),  # 无value
     ('assert_invisibility_of_element', 'assert_invisibility_of_element'),  # 无value
-    ('assert_visibility_of', 'assert_visibility_of'),   # 无value
-    ('assert_visibility_of_any_elements_located', 'assert_visibility_of_any_elements_located'), # 无value
+    ('assert_visibility_of', 'assert_visibility_of'),  # 无value
+    ('assert_visibility_of_any_elements_located', 'assert_visibility_of_any_elements_located'),  # 无value
     ('assert_visibility_of_all_elements_located', 'assert_visibility_of_all_elements_located'),  # 无value
     ('assert_element_to_be_clickable', 'assert_element_to_be_clickable'),  # 无value
-    ('assert_staleness_of', 'assert_staleness_of'),   # 无value
+    ('assert_staleness_of', 'assert_staleness_of'),  # 无value
     ('assert_text_to_be_present_in_element', 'assert_text_to_be_present_in_element'),
     ('assert_text_to_be_present_in_element_value', 'assert_text_to_be_present_in_element_value'),
     ('assert_frame_to_be_available_and_switch_to_it', 'assert_frame_to_be_available_and_switch_to_it'),  # 无value
@@ -110,7 +111,7 @@ COMMANDS = (
     ('assert_element_located_to_be_selected', 'assert_element_located_to_be_selected'),  # 无value
     ('assert_element_located_selection_state_to_be', 'assert_element_located_selection_state_to_be'),  # 无value
     ('assert_number_of_windows_to_be', 'assert_number_of_windows_to_be'),  # 无target
-    ('assert_alert_is_present', 'assert_alert_is_present'),     # 无target、value
+    ('assert_alert_is_present', 'assert_alert_is_present'),  # 无target、value
     ('assert_text_of_alert', 'assert_text_of_alert')   # 无target
 )
 
@@ -157,7 +158,7 @@ BROWSER_CHOICE = (
 class WebCase(models.Model):
     FrontPostManager = models.ForeignKey('FrontPostManager', on_delete=models.CASCADE,
                                          null=True, blank=True, verbose_name="前置用例步骤")
-    Product = models.ForeignKey('Product', on_delete=models.CASCADE, verbose_name="所属项目")
+    Product = models.ForeignKey('Product', on_delete=models.CASCADE, verbose_name="所属项目+版本")
     SeleniumHubServer = models.ForeignKey('SeleniumHubServer', on_delete=models.CASCADE,
                                           verbose_name="SeleniumServer服务器")
     caseName = models.CharField('用例名称', max_length=100)

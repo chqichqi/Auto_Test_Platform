@@ -1,11 +1,9 @@
 # coding=utf-8
-import time
-
-from django.contrib import admin
-from datetime import datetime
 import os
 import subprocess
-import uuid
+import sys
+from datetime import datetime
+
 import nested_admin
 import yaml
 from django.contrib import admin
@@ -235,21 +233,61 @@ class WebCaseStepAdmin(nested_admin.NestedTabularInline):
 class WebCaseAdmin(nested_admin.NestedModelAdmin):
     model = models.WebCase
     inlines = [CaseContextAdmin, WebCaseStepAdmin, DdtDataAdmin]
-    list_filter = ('Product', )
+    # list_filter = ('Product', )   # 由于外键的原因，导致该过滤无效
+    search_fields = ('Product__itemName',)  # 这里外键搜索，必须指明：“类__字段名”，这里是两个下划线哈。
     list_display = ('caseName', 'Product', 'SeleniumHubServer', 'FrontPostManager', 'browser', 'created_time')
     list_display_links = ('caseName', 'Product', 'SeleniumHubServer', 'FrontPostManager', 'browser', 'created_time')
     # autocomplete_fields = ['SeleniumHubServer']
     # raw_id_fields = ['SeleniumHubServer']    # 显示外键的详细信息
     # readonly_fields = ['id']  # 仅读数据字段，即不能修改的数据
-    list_per_page = 10    # 每页展示记录数
-    ordering = ('created_time',)    # 创建时间升序排列
-    actions = ['send_cases', 'run_case', ]
+    list_per_page = 10  # 每页展示记录数
+    ordering = ('created_time',)  # 创建时间升序排列
+    actions = ['send_cases', 'clone_selected_records', 'run_case', ]
 
     # 定义自定义 CSS 样式
     class Media:
         css = {
             'all': ('/static/admin/custom_admin_styles.css',),
         }
+
+    def clone_selected_records(modeladmin, clientRequest, queryset):
+        for obj in queryset:
+            # Create a new instance of YourModel
+            old_id = obj.pk
+            # 首先查询到每个内联数据表中相关数据
+            case_context_case_obj = CaseContext.objects.filter(WebCase_id=old_id)
+            web_case_step_obj = WebCaseStep.objects.filter(WebCase_id=old_id)
+            ddt_data_obj = DdtData.objects.filter(WebCase_id=old_id)
+
+            # 第二步：保存主表数据
+            obj.pk = None
+            obj.save()
+            # 第三步：分别保存各内联数据表中的数据
+            for item in case_context_case_obj.values():
+                new_obj = CaseContext(WebCase_id=obj.pk,
+                                      argvName=item["argvName"],
+                                      argvValue=item["argvValue"])
+                new_obj.save()
+            for item in web_case_step_obj.values():
+                new_obj = WebCaseStep(WebCase_id=obj.pk,
+                                      order=item["order"],
+                                      command=item["command"],
+                                      target=item["target"],
+                                      value=item["value"],
+                                      desc=item["desc"])
+                new_obj.save()
+            for item in ddt_data_obj.values():
+                old_ddt_params_obj = DdtParams.objects.filter(DdtData_id=item['id'])
+                new_obj = DdtData(WebCase_id=obj.pk,
+                                  desc=item["desc"])
+                new_obj.save()
+                print(f"new_pk={new_obj.pk}")
+                for item2 in old_ddt_params_obj.values():
+                    ddt_params_obj = DdtParams(DdtData_id=new_obj.pk,
+                                               argvName=item2["argvName"],
+                                               argvValue=item2["argvValue"])
+                    ddt_params_obj.save()
+        modeladmin.message_user(clientRequest, '复制并保存测试用例完成')
 
     # 保存数据时，处理逻辑
     def save_model(self, request, obj, form, change):
@@ -282,6 +320,7 @@ class WebCaseAdmin(nested_admin.NestedModelAdmin):
                 is_webCase_data_valid(formset)
             elif formset.model == DdtData:  # This is ChildModelInline3
                 self.data_valid(formset, 'argvName', '数据驱动数据项中参数名')
+                pass
 
         super().save_formset(request, form, formset, change)
 
@@ -311,14 +350,13 @@ class WebCaseAdmin(nested_admin.NestedModelAdmin):
                 server_address = server.serverAddress
                 server_port = str(server.serverPort)
                 print('远程')
-
-            test_code = subprocess.call("webrun --driver=" + driver
-                                        + " --cases=" + path
-                                        + " --report-path=" + report_path
-                                        + " --host=" + str(server_address)
-                                        + " --port=" + str(server_port)
-                                        + " --capability=" + server_browser,
-                                        shell=True)
+            commands = "webrun --driver={} --cases={} --report-path={} --host={} --port={} --capability={}".format(
+                driver, path, report_path, str(server_address), str(server_port), server_browser)
+            print('command={}'.format(commands, ))
+            if sys.platform.startswith('linux'):
+                test_code = subprocess.call(commands, shell=True)
+            else:
+                test_code = subprocess.call(commands)
             if test_code == 0:
                 test_stats = '成功'
             else:
@@ -332,9 +370,9 @@ class WebCaseAdmin(nested_admin.NestedModelAdmin):
             )
             test_report.save()
             # 测试完成后，将生成测试用例yaml文件全部删除
-            for root, dirs, files in os.walk(path, topdown=False):
-                for name in files:
-                    os.remove(os.path.join(root, name))
+            # for root, dirs, files in os.walk(path, topdown=False):
+            #     for name in files:
+            #         os.remove(os.path.join(root, name))
 
         except Exception as e:
             modeladmin.message_user(clientRequest, e)
@@ -443,9 +481,11 @@ class WebCaseAdmin(nested_admin.NestedModelAdmin):
     send_cases.confirm = '生成用例需要一定时间，请耐心等待，勿重复点击'
     send_cases.type = 'warning'  # 绿色
 
-    run_case.short_description = ' << 执行测试用例 >> '
+    clone_selected_records.short_description = '复制并保存选择记录'
+
+    run_case.short_description = '执行测试用例 >> START '
     run_case.confirm = '执行用例需要一定时间，请耐心等待，勿重复点击'
-    run_case.type = 'success'     # 绿色
+    run_case.type = 'success'  # 绿色
     # run_case.icon = 'fas fa-lock-open'   # 锁开状态
     # run_case.icon = 'fas fa-backward'    # 锁开状态
 
