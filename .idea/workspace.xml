@@ -4,17 +4,6 @@
     <list default="true" id="f1fb065d-4829-48d8-9591-51760f744a03" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebUiAtuoTest/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebUiAtuoTest/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUiAtuoTest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebUiAtuoTest/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_simpleUi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_simpleUi/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases_jenkins/test_手机APP端_百度搜索--成都.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/05b111bc-28ff-41e6-99f9-897a5917f9bb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/18fe4622-0e2d-4bb5-ac82-8b1187fc09c5-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/4cd3e68a-ffcf-4ec2-9bd9-c5f482a2d7f4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/68ad9cb1-cc96-4564-a20f-68428aae390c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/7a7bd2f5-4026-4ef1-ba00-ba522807d92b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/bb062ecc-2553-4753-a232-96fb604c3889-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/ui_framework/UiCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/ui_framework/UiCommand.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +151,11 @@
       <workItem from="1701260583538" duration="1573000" />
       <workItem from="1701346927661" duration="6449000" />
       <workItem from="1701353702018" duration="357000" />
-      <workItem from="1701432783105" duration="3156000" />
+      <workItem from="1701432783105" duration="3399000" />
+      <workItem from="1701500220398" duration="744000" />
+      <workItem from="1701692444172" duration="4068000" />
+      <workItem from="1701779114483" duration="825000" />
+      <workItem from="1701785910698" duration="94000" />
     </task>
     <task id="LOCAL-00001" summary="将每次测试生成的yaml文件，在测试完成后立即删除">
       <created>1695905749165</created>
@@ -213,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700057824236</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="增加了快速复制用例的功能">
+      <created>1701442686728</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701442686728</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +241,8 @@
     <MESSAGE value="将每次测试生成的yaml文件，在测试完成后立即删除" />
     <MESSAGE value="修改部分三方组件版本过高，导致在linux系统上无法安装的问题" />
     <MESSAGE value="测试用例新增记录时，添加各种情况的数据校验；删除测试报告记录同时删除相关的文件夹" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试用例新增记录时，添加各种情况的数据校验；删除测试报告记录同时删除相关的文件夹" />
+    <MESSAGE value="增加了快速复制用例的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了快速复制用例的功能" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -255,11 +256,11 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672@0.0.1280.672" timestamp="1693705817114" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1700057822334">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1701786053873">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.672@0.0.1280.672" timestamp="1696505166038" />
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1700057822334" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1701786053873" />
     <state x="93" y="93" width="1095" height="487" key="DiffContextDialog" timestamp="1696504441036">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -268,11 +269,11 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="421" y="92" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1693660140472" />
-    <state x="535" y="81" key="SettingsEditor" timestamp="1700899405124">
+    <state x="535" y="81" key="SettingsEditor" timestamp="1701695008794">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1695903698997" />
-    <state x="535" y="81" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1700899405124" />
+    <state x="535" y="81" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1701695008794" />
     <state x="548" y="242" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1700055389085">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

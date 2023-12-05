@@ -183,6 +183,29 @@ class FrontPostManagerAdmin(admin.ModelAdmin):
     list_display = ['name', 'desc']
     list_display_links = ['name', 'desc']
     inlines = [FrontPostStepAdmin]
+    actions = ['copy_save_record', ]
+
+    # 复制当前选定记录，并创建新记录 2023-12-5
+    # @admin.action(permissions=['change'])
+    def copy_save_record(modeladmin, clientRequest, queryset):
+        for obj in queryset:
+            # Create a new instance of YourModel
+            old_id = obj.pk
+            # 首先查询到每个内联数据表中相关数据
+            front_post_step_obj = FrontPostStep.objects.filter(FrontPostManager_id=old_id)
+            # 第二步：保存主表数据
+            obj.pk = None
+            obj.save()
+            # 第三步：分别保存各内联数据表中的数据
+            for item in front_post_step_obj.values():
+                new_obj = FrontPostStep(FrontPostManager_id=obj.pk,
+                                        order=item["order"],
+                                        command=item["command"],
+                                        target=item["target"],
+                                        value=item["value"],
+                                        desc=item["desc"])
+                new_obj.save()
+        modeladmin.message_user(clientRequest, '复制并保存前置用例完成')
 
     def save_model(self, request, obj, form, change):
         # 查询：select * from FrontPostManager where id != obj.pk    obj.pk为主键ID
@@ -201,6 +224,9 @@ class FrontPostManagerAdmin(admin.ModelAdmin):
             is_webCase_data_valid(formset)
 
         super().save_formset(request, form, formset, change)
+
+    copy_save_record.short_description = '复制选择记录并保存'
+    copy_save_record.type = 'info'
 
 
 admin.site.register(models.FrontPostManager, FrontPostManagerAdmin)
@@ -482,6 +508,7 @@ class WebCaseAdmin(nested_admin.NestedModelAdmin):
     send_cases.type = 'warning'  # 绿色
 
     clone_selected_records.short_description = '复制并保存选择记录'
+    clone_selected_records.type = 'info'
 
     run_case.short_description = '执行测试用例 >> START '
     run_case.confirm = '执行用例需要一定时间，请耐心等待，勿重复点击'
