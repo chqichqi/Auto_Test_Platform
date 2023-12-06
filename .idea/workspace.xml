@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1fb065d-4829-48d8-9591-51760f744a03" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUiAtuoTest/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebUiAtuoTest/admin.py" afterDir="false" />
-    </list>
+    <list default="true" id="f1fb065d-4829-48d8-9591-51760f744a03" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +152,7 @@
       <workItem from="1701500220398" duration="744000" />
       <workItem from="1701692444172" duration="4068000" />
       <workItem from="1701779114483" duration="825000" />
-      <workItem from="1701785910698" duration="94000" />
+      <workItem from="1701785910698" duration="191000" />
     </task>
     <task id="LOCAL-00001" summary="将每次测试生成的yaml文件，在测试完成后立即删除">
       <created>1695905749165</created>
@@ -213,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701442686728</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="增加前置条件快速复制用例的功能">
+      <created>1701786076593</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701786076593</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +246,8 @@
     <MESSAGE value="修改部分三方组件版本过高，导致在linux系统上无法安装的问题" />
     <MESSAGE value="测试用例新增记录时，添加各种情况的数据校验；删除测试报告记录同时删除相关的文件夹" />
     <MESSAGE value="增加了快速复制用例的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了快速复制用例的功能" />
+    <MESSAGE value="增加前置条件快速复制用例的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加前置条件快速复制用例的功能" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
