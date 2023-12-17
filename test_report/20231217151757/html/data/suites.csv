@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Dec 17 15:18:07 CST 2023","Sun Dec 17 15:18:13 CST 2023","6025","my_selenium_test.venv.lib.site-packages.seleniumrunner-0.0.1-py3.7.egg.seleniumrunner.test_case","这是套件","Test_Case_Class","","","test_start[test_web医院端V1.3.0.0_百度搜索功能--成都.yaml]","
+        唯一的pytest测试方法 -- 利用pytest参数化机制来执行不同的用例
+        "

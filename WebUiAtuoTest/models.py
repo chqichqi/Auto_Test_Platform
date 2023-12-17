@@ -154,6 +154,11 @@ BROWSER_CHOICE = (
     # ('SAFARI', '苹果-safari'),
 )
 
+HEADLESS = (
+    ('headless', '无头模式'),
+    ('no_headless', '非头模式'),
+)
+
 
 class WebCase(models.Model):
     FrontPostManager = models.ForeignKey('FrontPostManager', on_delete=models.CASCADE,
@@ -163,6 +168,7 @@ class WebCase(models.Model):
                                           verbose_name="SeleniumServer服务器")
     caseName = models.CharField('用例名称', max_length=100)
     browser = models.CharField('浏览器', max_length=50, choices=BROWSER_CHOICE)
+    headless = models.CharField('浏览器模式', max_length=20, choices=HEADLESS, default='headless')
     created_time = models.DateTimeField('创建时间', auto_now=True)      # 自动获取当前时间
 
     class Meta:

@@ -1,0 +1,18 @@
+{'command': 'open', 'desc': '打开登录首页', 'target': 'https://www.baidu.com', 'value': None}
+{'command': 'send_keys', 'desc': '输入搜索数据', 'target': "//input[@id='kw']", 'value': '成都'}
+{'command': 'click', 'desc': '点击搜索一下', 'target': "//input[@id='su']", 'value': None}
+延时参数错误！
+{'command': 'pause', 'desc': '等待', 'target': None, 'value': '2'}
+{'command': 'assert_visibility_of', 'desc': '断言搜索结果的正确性', 'target': "//div[@id='tsn_inner']/div[2]/span[contains(text(),'百度为您找到相关结果529个')]", 'value': '百度为您找到相关结果529个'}
+{'command': 'open', 'desc': '打开登录首页', 'target': 'https://www.baidu.com', 'value': None}
+{'command': 'send_keys', 'desc': '输入搜索数据', 'target': "//input[@id='kw']", 'value': '成都'}
+{'command': 'click', 'desc': '点击搜索一下', 'target': "//input[@id='su']", 'value': None}
+延时参数错误！
+{'command': 'pause', 'desc': '等待', 'target': None, 'value': '2'}
+{'command': 'assert_visibility_of', 'desc': '断言搜索结果的正确性', 'target': "//div[@id='tsn_inner']/div[2]/span[contains(text(),'百度为您找到相关结果529个')]", 'value': '百度为您找到相关结果529个'}
+{'command': 'open', 'desc': '打开登录首页', 'target': 'https://www.baidu.com', 'value': None}
+{'command': 'send_keys', 'desc': '输入搜索数据', 'target': "//input[@id='kw']", 'value': '成都'}
+{'command': 'click', 'desc': '点击搜索一下', 'target': "//input[@id='su']", 'value': None}
+延时参数错误！
+{'command': 'pause', 'desc': '等待', 'target': None, 'value': '2'}
+{'command': 'assert_visibility_of', 'desc': '断言搜索结果的正确性', 'target': "//div[@id='tsn_inner']/div[2]/span[contains(text(),'百度为您找到相关结果529个')]", 'value': '百度为您找到相关结果529个'}

@@ -31,20 +31,16 @@ class TestReport(models.Model):
             s.connect(('8.8.8.8', 80))
             # print('host_name=' + str(s.getsockname()))
             ip = s.getsockname()[0]
-            print('当前系统为 Linux')
         elif sys.platform.startswith('win'):
             ip = 'localhost'
-            print('当前系统为 Windows')
         elif sys.platform.startswith('darwin'):
             ip = 'localhost'
-            print('当前系统为 macOS')
         else:
             ip = 'localhost'
-            print('无法识别当前系统')
 
         btn_str = '<input name="view_detail" onclick="javascript:window.open(window.location.protocol +\'//' +\
                   ip+':63342{}\');" type="button" id="btn_assign_{}" ' \
-                  'value="查看测试报告详情">'.format("/django_simpleUi"+self.report_detail, self.id)
+                  'value="点击查看详情">'.format("/django_simpleUi"+self.report_detail, self.id)
         return format_html(btn_str)
 
     view_detail.short_description = ('操作')

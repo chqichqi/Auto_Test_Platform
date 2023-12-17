@@ -1,6 +1,0 @@
-{'command': 'open', 'desc': '打开登录首页', 'target': 'http://www.baidu.com', 'value': None}
-{'command': 'send_keys', 'desc': '输入搜索数据', 'target': "//input[@id='kw']", 'value': '成都'}
-{'command': 'click', 'desc': '点击搜索一下', 'target': "//input[@id='su']", 'value': None}
-{'command': 'pause', 'desc': '等待', 'target': None, 'value': '5'}
-value=5
-{'command': 'assert_visibility_of', 'desc': '断言搜索结果的正确性', 'target': "//div[@id='tsn_inner']/div[2]/span[contains(text(),'百度为您找到相关结果约100,000,000个')]", 'value': '百度为您找到相关结果约100,000,000个'}

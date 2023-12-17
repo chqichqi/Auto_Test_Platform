@@ -1,7 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1fb065d-4829-48d8-9591-51760f744a03" name="Default Changelist" comment="" />
+    <list default="true" id="f1fb065d-4829-48d8-9591-51760f744a03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WebUiAtuoTest/static/disable_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebUiAtuoTest/static/disable_page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebUiAtuoTest/static/modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebUiAtuoTest/static/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebUiAtuoTest/templates/admin/base_site.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/logManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUiAtuoTest/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebUiAtuoTest/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUiAtuoTest/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebUiAtuoTest/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUiAtuoTest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebUiAtuoTest/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUiAtuoTest/static/admin/custom_admin_styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleUi_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simpleUi_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/test-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/test-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/test-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/test-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/test-bug-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/test-bug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/test-bug2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/test-report.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/data/attachments/1de1b654c852cbd6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/data/test-cases/dfc376d18a6743fe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/20231114211007/html/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/test_case/mymain.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/test_case/mymain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/ui_framework/UiCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/SeleniumRunner-0.0.1-py3.7.egg/seleniumrunner/ui_framework/UiCommand.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +97,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -51,6 +122,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -61,7 +133,16 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\test-programs\pythonSpace\django_simpleUi\venv\Lib\site-packages" />
       <recent name="D:\test-programs\pythonSpace\django_simpleUi\venv\Scripts" />
+      <recent name="D:\test-programs\pythonSpace\django_simpleUi\css" />
+      <recent name="D:\test-programs\pythonSpace\django_simpleUi\static\admin" />
       <recent name="D:\test-programs\pythonSpace\django_simpleUi\static\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\test-programs\pythonSpace\django_simpleUi\WebUiAtuoTest\migrations" />
+      <recent name="D:\test-programs\pythonSpace\django_simpleUi\WebUiAtuoTest\static" />
+      <recent name="D:\test-programs\pythonSpace\django_simpleUi\static\admin" />
+      <recent name="D:\test-programs\pythonSpace\django_simpleUi\templates" />
+      <recent name="D:\test-programs\pythonSpace\django_simpleUi\WebUiAtuoTest\templates\admin" />
     </key>
   </component>
   <component name="RunManager">
@@ -153,6 +234,14 @@
       <workItem from="1701692444172" duration="4068000" />
       <workItem from="1701779114483" duration="825000" />
       <workItem from="1701785910698" duration="191000" />
+      <workItem from="1701864537704" duration="826000" />
+      <workItem from="1701866146761" duration="1982000" />
+      <workItem from="1701950579056" duration="608000" />
+      <workItem from="1702090062515" duration="1422000" />
+      <workItem from="1702188544514" duration="2313000" />
+      <workItem from="1702642186420" duration="6152000" />
+      <workItem from="1702704082353" duration="28168000" />
+      <workItem from="1702776908960" duration="20691000" />
     </task>
     <task id="LOCAL-00001" summary="将每次测试生成的yaml文件，在测试完成后立即删除">
       <created>1695905749165</created>
@@ -217,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701786076593</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="增加前置条件快速复制用例的功能">
+      <created>1701864741431</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701864741431</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,11 +357,11 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672@0.0.1280.672" timestamp="1693705817114" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1701786053873">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1701864730217">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.672@0.0.1280.672" timestamp="1696505166038" />
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1701786053873" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1701864730217" />
     <state x="93" y="93" width="1095" height="487" key="DiffContextDialog" timestamp="1696504441036">
       <screen x="0" y="0" width="1280" height="672" />
     </state>

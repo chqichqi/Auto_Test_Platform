@@ -2,7 +2,17 @@
 
 # WebCaseStep
 from django.forms import ModelForm, TextInput
-from WebUiAtuoTest.models import WebCaseStep, CaseContext, DdtParams, FrontPostStep
+from WebUiAtuoTest.models import WebCase, WebCaseStep, CaseContext, DdtParams, FrontPostStep
+
+
+class WebCaseForm(ModelForm):
+    class Meta:
+        model = WebCase
+        # fields = ('caseName',)
+        fields = '__all__'
+        widgets = {
+            'caseName': TextInput(attrs={'size': 80, 'title': '请输入测试用例名称'}),
+        }
 
 
 class WebCaseStepForm(ModelForm):
@@ -11,9 +21,9 @@ class WebCaseStepForm(ModelForm):
         fields = ('order', 'command', 'target', 'value', 'desc',)
         widgets = {
             'order': TextInput(attrs={'size': 1, 'title': '请输入执行顺序'}),
-            'target': TextInput(attrs={'size': 65, 'title': '请输入元素名'}),
-            'value': TextInput(attrs={'size': 15, 'title': '请输入数据值'}),
-            'desc': TextInput(attrs={'size': 30, 'title': '请输入说明'})
+            'target': TextInput(attrs={'size': 80, 'title': '请输入元素名'}),
+            'value': TextInput(attrs={'size': 35, 'title': '请输入数据值'}),
+            'desc': TextInput(attrs={'size': 50, 'title': '请输入说明'})
         }
 
 
@@ -43,7 +53,7 @@ class FrontPostStepForm(ModelForm):
         fields = ('order', 'command', 'target', 'value', 'desc',)
         widgets = {
             'order': TextInput(attrs={'size': 1, 'title': '请输入执行顺序'}),
-            'target': TextInput(attrs={'size': 65, 'title': '请输入元素名'}),
-            'value': TextInput(attrs={'size': 15, 'title': '请输入数据值'}),
-            'desc': TextInput(attrs={'size': 30, 'title': '请输入说明'})
+            'target': TextInput(attrs={'size': 80, 'title': '请输入元素名'}),
+            'value': TextInput(attrs={'size': 35, 'title': '请输入数据值'}),
+            'desc': TextInput(attrs={'size': 50, 'title': '请输入说明'})
         }
