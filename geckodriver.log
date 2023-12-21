@@ -8464,3 +8464,1326 @@ JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
 JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1702797563508	Marionette	INFO	Stopped listening on port 58445
+1702901830442	geckodriver	INFO	Listening on 127.0.0.1:51483
+1702901833486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileKltD1t"
+*** You are running in headless mode.
+1702901834497	Marionette	INFO	Marionette enabled
+1702901834503	Marionette	INFO	Listening on port 51495
+Read port: 51495
+1702901834618	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileKltD1t\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702901842647	Marionette	INFO	Stopped listening on port 51495
+1702901845753	geckodriver	INFO	Listening on 127.0.0.1:51623
+1702901848651	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileBVKcm0"
+*** You are running in headless mode.
+1702901849512	Marionette	INFO	Marionette enabled
+1702901849516	Marionette	INFO	Listening on port 51635
+Read port: 51635
+1702901849611	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileBVKcm0\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702901858631	Marionette	INFO	Stopped listening on port 51635
+1702901861681	geckodriver	INFO	Listening on 127.0.0.1:51741
+1702901864613	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilehhETP5"
+*** You are running in headless mode.
+1702901865309	Marionette	INFO	Marionette enabled
+1702901865314	Marionette	INFO	Listening on port 51753
+Read port: 51753
+1702901865654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilehhETP5\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702901873414	Marionette	INFO	Stopped listening on port 51753
+1702902042217	geckodriver	INFO	Listening on 127.0.0.1:51886
+1702902045118	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilelpc4FQ"
+*** You are running in headless mode.
+1702902046164	Marionette	INFO	Marionette enabled
+1702902046176	Marionette	INFO	Listening on port 51898
+Read port: 51898
+1702902046419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilelpc4FQ\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702902057067	Marionette	INFO	Stopped listening on port 51898
+1702902060150	geckodriver	INFO	Listening on 127.0.0.1:51993
+1702902063198	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileCBpTvP"
+*** You are running in headless mode.
+1702902063994	Marionette	INFO	Marionette enabled
+1702902063998	Marionette	INFO	Listening on port 52005
+Read port: 52005
+1702902064279	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileCBpTvP\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902073068	Marionette	INFO	Stopped listening on port 52005
+1702902076797	geckodriver	INFO	Listening on 127.0.0.1:52119
+1702902079883	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile8o3ES0"
+*** You are running in headless mode.
+1702902080630	Marionette	INFO	Marionette enabled
+1702902080648	Marionette	INFO	Listening on port 52131
+Read port: 52131
+1702902080820	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile8o3ES0\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902088122	Marionette	INFO	Stopped listening on port 52131
+1702902304410	geckodriver	INFO	Listening on 127.0.0.1:52302
+1702902307498	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileWsu2iy"
+*** You are running in headless mode.
+1702902308381	Marionette	INFO	Marionette enabled
+1702902308400	Marionette	INFO	Listening on port 52314
+Read port: 52314
+1702902308873	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileWsu2iy\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902316036	Marionette	INFO	Stopped listening on port 52314
+1702902319013	geckodriver	INFO	Listening on 127.0.0.1:52412
+1702902321703	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile1rVlab"
+*** You are running in headless mode.
+1702902322535	Marionette	INFO	Marionette enabled
+1702902322553	Marionette	INFO	Listening on port 52424
+Read port: 52424
+1702902322699	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile1rVlab\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702902331010	Marionette	INFO	Stopped listening on port 52424
+1702902334184	geckodriver	INFO	Listening on 127.0.0.1:52538
+1702902337072	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileG93nr7"
+*** You are running in headless mode.
+1702902338176	Marionette	INFO	Marionette enabled
+1702902338186	Marionette	INFO	Listening on port 52550
+Read port: 52550
+1702902338447	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileG93nr7\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902348927	Marionette	INFO	Stopped listening on port 52550
+1702902411189	geckodriver	INFO	Listening on 127.0.0.1:52691
+1702902414263	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiletHd2w3"
+*** You are running in headless mode.
+1702902415313	Marionette	INFO	Marionette enabled
+1702902415325	Marionette	INFO	Listening on port 52703
+Read port: 52703
+1702902415568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiletHd2w3\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902423217	Marionette	INFO	Stopped listening on port 52703
+1702902425984	geckodriver	INFO	Listening on 127.0.0.1:52814
+1702902429061	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileCzGmFE"
+*** You are running in headless mode.
+1702902429797	Marionette	INFO	Marionette enabled
+1702902429806	Marionette	INFO	Listening on port 52826
+Read port: 52826
+1702902429925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileCzGmFE\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902438479	Marionette	INFO	Stopped listening on port 52826
+1702902441715	geckodriver	INFO	Listening on 127.0.0.1:52929
+1702902444767	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileTCz5fM"
+*** You are running in headless mode.
+1702902445588	Marionette	INFO	Marionette enabled
+1702902445594	Marionette	INFO	Listening on port 52941
+Read port: 52941
+1702902445875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileTCz5fM\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902454352	Marionette	INFO	Stopped listening on port 52941
+1702902471484	geckodriver	INFO	Listening on 127.0.0.1:53060
+1702902474585	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileM1Q99T"
+*** You are running in headless mode.
+1702902475404	Marionette	INFO	Marionette enabled
+1702902475409	Marionette	INFO	Listening on port 53073
+Read port: 53073
+1702902475704	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileM1Q99T\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902483401	Marionette	INFO	Stopped listening on port 53073
+1702902486229	geckodriver	INFO	Listening on 127.0.0.1:53189
+1702902489268	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileLJIXae"
+*** You are running in headless mode.
+1702902489912	Marionette	INFO	Marionette enabled
+1702902489917	Marionette	INFO	Listening on port 53201
+Read port: 53201
+1702902490021	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileLJIXae\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902498025	Marionette	INFO	Stopped listening on port 53201
+1702902500911	geckodriver	INFO	Listening on 127.0.0.1:53310
+1702902503993	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile2NZFOD"
+*** You are running in headless mode.
+1702902504931	Marionette	INFO	Marionette enabled
+1702902504940	Marionette	INFO	Listening on port 53322
+Read port: 53322
+1702902505076	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile2NZFOD\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902515216	Marionette	INFO	Stopped listening on port 53322
+1702902627750	geckodriver	INFO	Listening on 127.0.0.1:53457
+1702902630837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileSJ9HMX"
+*** You are running in headless mode.
+1702902632049	Marionette	INFO	Marionette enabled
+1702902632062	Marionette	INFO	Listening on port 53469
+Read port: 53469
+1702902632299	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileSJ9HMX\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902640461	Marionette	INFO	Stopped listening on port 53469
+1702902642750	geckodriver	INFO	Listening on 127.0.0.1:53570
+1702902645830	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileyz7k4R"
+*** You are running in headless mode.
+1702902646432	Marionette	INFO	Marionette enabled
+1702902646443	Marionette	INFO	Listening on port 53582
+Read port: 53582
+1702902646604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileyz7k4R\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902657777	Marionette	INFO	Stopped listening on port 53582
+1702902661146	geckodriver	INFO	Listening on 127.0.0.1:53691
+1702902664178	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilesS7etY"
+*** You are running in headless mode.
+1702902664691	Marionette	INFO	Marionette enabled
+1702902664698	Marionette	INFO	Listening on port 53703
+Read port: 53703
+1702902664842	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilesS7etY\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902675412	Marionette	INFO	Stopped listening on port 53703
+1702902716464	geckodriver	INFO	Listening on 127.0.0.1:53821
+1702902719550	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileGxKTdN"
+*** You are running in headless mode.
+1702902720641	Marionette	INFO	Marionette enabled
+1702902720650	Marionette	INFO	Listening on port 53833
+Read port: 53833
+1702902720832	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileGxKTdN\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902728224	Marionette	INFO	Stopped listening on port 53833
+1702902730974	geckodriver	INFO	Listening on 127.0.0.1:53937
+1702902734045	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileMAOhQ3"
+*** You are running in headless mode.
+1702902734634	Marionette	INFO	Marionette enabled
+1702902734641	Marionette	INFO	Listening on port 53949
+Read port: 53949
+1702902734874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileMAOhQ3\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902742672	Marionette	INFO	Stopped listening on port 53949
+1702902745524	geckodriver	INFO	Listening on 127.0.0.1:54055
+1702902748607	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileuf1o3o"
+*** You are running in headless mode.
+1702902749819	Marionette	INFO	Marionette enabled
+1702902749840	Marionette	INFO	Listening on port 54069
+Read port: 54069
+1702902750083	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileuf1o3o\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902758402	Marionette	INFO	Stopped listening on port 54069
+1702902881859	geckodriver	INFO	Listening on 127.0.0.1:54190
+1702902884966	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileC9QTA1"
+*** You are running in headless mode.
+1702902885758	Marionette	INFO	Marionette enabled
+1702902885762	Marionette	INFO	Listening on port 54202
+Read port: 54202
+1702902886035	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileC9QTA1\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902893036	Marionette	INFO	Stopped listening on port 54202
+1702902895941	geckodriver	INFO	Listening on 127.0.0.1:54310
+1702902899009	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilezZdliv"
+*** You are running in headless mode.
+1702902899636	Marionette	INFO	Marionette enabled
+1702902899645	Marionette	INFO	Listening on port 54322
+Read port: 54322
+1702902899798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilezZdliv\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902909702	Marionette	INFO	Stopped listening on port 54322
+1702902913022	geckodriver	INFO	Listening on 127.0.0.1:54427
+1702902916098	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileHbploO"
+*** You are running in headless mode.
+1702902917022	Marionette	INFO	Marionette enabled
+1702902917028	Marionette	INFO	Listening on port 54439
+Read port: 54439
+1702902917321	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileHbploO\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902926117	Marionette	INFO	Stopped listening on port 54439
+1702902942818	geckodriver	INFO	Listening on 127.0.0.1:54546
+1702902945933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile0ageDJ"
+*** You are running in headless mode.
+1702902946704	Marionette	INFO	Marionette enabled
+1702902946717	Marionette	INFO	Listening on port 54558
+Read port: 54558
+1702902946951	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile0ageDJ\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902955494	Marionette	INFO	Stopped listening on port 54558
+1702902958220	geckodriver	INFO	Listening on 127.0.0.1:54657
+1702902961312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileOjzE9D"
+*** You are running in headless mode.
+1702902961979	Marionette	INFO	Marionette enabled
+1702902961987	Marionette	INFO	Listening on port 54669
+Read port: 54669
+1702902962190	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileOjzE9D\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902975534	Marionette	INFO	Stopped listening on port 54669
+1702902980369	geckodriver	INFO	Listening on 127.0.0.1:54785
+1702902983375	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile6xti2e"
+*** You are running in headless mode.
+1702902984359	Marionette	INFO	Marionette enabled
+1702902984374	Marionette	INFO	Listening on port 54797
+Read port: 54797
+1702902984635	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile6xti2e\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702902994520	Marionette	INFO	Stopped listening on port 54797
+1702903018632	geckodriver	INFO	Listening on 127.0.0.1:54904
+1702903021725	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilerRcwWv"
+*** You are running in headless mode.
+1702903022661	Marionette	INFO	Marionette enabled
+1702903022666	Marionette	INFO	Listening on port 54916
+Read port: 54916
+1702903023110	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilerRcwWv\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903030754	Marionette	INFO	Stopped listening on port 54916
+1702903033760	geckodriver	INFO	Listening on 127.0.0.1:55017
+1702903036595	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileXrc9FM"
+*** You are running in headless mode.
+1702903037673	Marionette	INFO	Marionette enabled
+1702903037685	Marionette	INFO	Listening on port 55029
+Read port: 55029
+1702903037879	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileXrc9FM\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903045520	Marionette	INFO	Stopped listening on port 55029
+1702903048249	geckodriver	INFO	Listening on 127.0.0.1:55134
+1702903051326	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileXcxQoM"
+*** You are running in headless mode.
+1702903052337	Marionette	INFO	Marionette enabled
+1702903052348	Marionette	INFO	Listening on port 55146
+Read port: 55146
+1702903052616	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileXcxQoM\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903060999	Marionette	INFO	Stopped listening on port 55146
+1702903191839	geckodriver	INFO	Listening on 127.0.0.1:55255
+1702903194773	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilegSWzNm"
+*** You are running in headless mode.
+1702903195893	Marionette	INFO	Marionette enabled
+1702903195913	Marionette	INFO	Listening on port 55267
+Read port: 55267
+1702903196181	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilegSWzNm\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903203992	Marionette	INFO	Stopped listening on port 55267
+1702903206836	geckodriver	INFO	Listening on 127.0.0.1:55381
+1702903209910	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileZfI8Tw"
+*** You are running in headless mode.
+1702903210540	Marionette	INFO	Marionette enabled
+1702903210545	Marionette	INFO	Listening on port 55393
+Read port: 55393
+1702903210637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileZfI8Tw\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702903218067	Marionette	INFO	Stopped listening on port 55393
+[Parent 14344, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1702903221317	geckodriver	INFO	Listening on 127.0.0.1:55507
+1702903224387	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiledtGkjr"
+*** You are running in headless mode.
+1702903225317	Marionette	INFO	Marionette enabled
+1702903225327	Marionette	INFO	Listening on port 55519
+Read port: 55519
+1702903225458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiledtGkjr\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702903235492	Marionette	INFO	Stopped listening on port 55519
+1702903291041	geckodriver	INFO	Listening on 127.0.0.1:55661
+1702903294163	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileyqECXL"
+*** You are running in headless mode.
+1702903295333	Marionette	INFO	Marionette enabled
+1702903295354	Marionette	INFO	Listening on port 55673
+Read port: 55673
+1702903295641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileyqECXL\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903302859	Marionette	INFO	Stopped listening on port 55673
+1702903305534	geckodriver	INFO	Listening on 127.0.0.1:55776
+1702903308591	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileblVSqe"
+*** You are running in headless mode.
+1702903309395	Marionette	INFO	Marionette enabled
+1702903309408	Marionette	INFO	Listening on port 55788
+Read port: 55788
+1702903309659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileblVSqe\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903319670	Marionette	INFO	Stopped listening on port 55788
+1702903322353	geckodriver	INFO	Listening on 127.0.0.1:55898
+1702903325459	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileEFCpkx"
+*** You are running in headless mode.
+1702903325958	Marionette	INFO	Marionette enabled
+1702903325964	Marionette	INFO	Listening on port 55910
+Read port: 55910
+1702903326199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileEFCpkx\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903335458	Marionette	INFO	Stopped listening on port 55910
+1702903350957	geckodriver	INFO	Listening on 127.0.0.1:56022
+1702903354066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile2HeJ4u"
+*** You are running in headless mode.
+1702903355101	Marionette	INFO	Marionette enabled
+1702903355112	Marionette	INFO	Listening on port 56036
+Read port: 56036
+1702903355239	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile2HeJ4u\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903364269	Marionette	INFO	Stopped listening on port 56036
+1702903367524	geckodriver	INFO	Listening on 127.0.0.1:56142
+1702903370588	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileyxdQgk"
+*** You are running in headless mode.
+1702903371076	Marionette	INFO	Marionette enabled
+1702903371083	Marionette	INFO	Listening on port 56154
+Read port: 56154
+1702903371212	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileyxdQgk\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903379929	Marionette	INFO	Stopped listening on port 56154
+1702903382862	geckodriver	INFO	Listening on 127.0.0.1:56248
+1702903385931	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilem7jHpt"
+*** You are running in headless mode.
+1702903386371	Marionette	INFO	Marionette enabled
+1702903386380	Marionette	INFO	Listening on port 56260
+Read port: 56260
+1702903386732	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilem7jHpt\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903394768	Marionette	INFO	Stopped listening on port 56260
+1702903625033	geckodriver	INFO	Listening on 127.0.0.1:56473
+1702903628130	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileZECkqf"
+*** You are running in headless mode.
+1702903628753	Marionette	INFO	Marionette enabled
+1702903628759	Marionette	INFO	Listening on port 56485
+Read port: 56485
+1702903628864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileZECkqf\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903637742	Marionette	INFO	Stopped listening on port 56485
+1702903640446	geckodriver	INFO	Listening on 127.0.0.1:56579
+1702903643311	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiletcWTVP"
+*** You are running in headless mode.
+1702903644197	Marionette	INFO	Marionette enabled
+1702903644207	Marionette	INFO	Listening on port 56591
+Read port: 56591
+1702903644377	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiletcWTVP\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903654138	Marionette	INFO	Stopped listening on port 56591
+1702903657335	geckodriver	INFO	Listening on 127.0.0.1:56706
+1702903660255	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilevIZ4Tx"
+*** You are running in headless mode.
+1702903661294	Marionette	INFO	Marionette enabled
+1702903661306	Marionette	INFO	Listening on port 56718
+Read port: 56718
+1702903661428	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilevIZ4Tx\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903670299	Marionette	INFO	Stopped listening on port 56718
+1702903690444	geckodriver	INFO	Listening on 127.0.0.1:56832
+1702903693516	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile9p22sr"
+*** You are running in headless mode.
+1702903693991	Marionette	INFO	Marionette enabled
+1702903693998	Marionette	INFO	Listening on port 56844
+Read port: 56844
+1702903694310	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile9p22sr\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903703920	Marionette	INFO	Stopped listening on port 56844
+1702903707023	geckodriver	INFO	Listening on 127.0.0.1:56959
+1702903710073	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilekgDNLV"
+*** You are running in headless mode.
+1702903710775	Marionette	INFO	Marionette enabled
+1702903710784	Marionette	INFO	Listening on port 56973
+Read port: 56973
+1702903710940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilekgDNLV\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903720129	Marionette	INFO	Stopped listening on port 56973
+1702903723375	geckodriver	INFO	Listening on 127.0.0.1:57074
+1702903726464	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilefsFhrV"
+*** You are running in headless mode.
+1702903727052	Marionette	INFO	Marionette enabled
+1702903727064	Marionette	INFO	Listening on port 57089
+Read port: 57089
+1702903727288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilefsFhrV\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903735512	Marionette	INFO	Stopped listening on port 57089
+1702903760032	geckodriver	INFO	Listening on 127.0.0.1:57210
+1702903762992	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiledPifXa"
+*** You are running in headless mode.
+1702903764302	Marionette	INFO	Marionette enabled
+1702903764323	Marionette	INFO	Listening on port 57222
+Read port: 57222
+1702903764540	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiledPifXa\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903772435	Marionette	INFO	Stopped listening on port 57222
+1702903775332	geckodriver	INFO	Listening on 127.0.0.1:57326
+1702903778168	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileVmTcJK"
+*** You are running in headless mode.
+1702903779222	Marionette	INFO	Marionette enabled
+1702903779242	Marionette	INFO	Listening on port 57338
+Read port: 57338
+1702903779351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileVmTcJK\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702903787352	Marionette	INFO	Stopped listening on port 57338
+1702903790986	geckodriver	INFO	Listening on 127.0.0.1:57452
+1702903794011	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile92hbHv"
+*** You are running in headless mode.
+1702903794891	Marionette	INFO	Marionette enabled
+1702903794903	Marionette	INFO	Listening on port 57466
+Read port: 57466
+1702903795079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile92hbHv\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702903807121	Marionette	INFO	Stopped listening on port 57466
+1702904581999	geckodriver	INFO	Listening on 127.0.0.1:57671
+1702904585028	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileZC5ab0"
+*** You are running in headless mode.
+1702904585841	Marionette	INFO	Marionette enabled
+1702904585852	Marionette	INFO	Listening on port 57683
+Read port: 57683
+1702904586048	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileZC5ab0\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702904597634	Marionette	INFO	Stopped listening on port 57683
+1702904600603	geckodriver	INFO	Listening on 127.0.0.1:57803
+1702904603539	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileUVP5JA"
+*** You are running in headless mode.
+1702904604506	Marionette	INFO	Marionette enabled
+1702904604514	Marionette	INFO	Listening on port 57815
+Read port: 57815
+1702904604755	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileUVP5JA\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702904613735	Marionette	INFO	Stopped listening on port 57815
+1702904619173	geckodriver	INFO	Listening on 127.0.0.1:57935
+1702904622208	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiledVvH3Q"
+*** You are running in headless mode.
+1702904623270	Marionette	INFO	Marionette enabled
+1702904623280	Marionette	INFO	Listening on port 57947
+Read port: 57947
+1702904623382	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiledVvH3Q\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702904631798	Marionette	INFO	Stopped listening on port 57947
+1702904653601	geckodriver	INFO	Listening on 127.0.0.1:58084
+1702904656684	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileN5HqCb"
+*** You are running in headless mode.
+1702904657196	Marionette	INFO	Marionette enabled
+1702904657202	Marionette	INFO	Listening on port 58096
+Read port: 58096
+1702904657347	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileN5HqCb\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702904669643	Marionette	INFO	Stopped listening on port 58096
+1702904673801	geckodriver	INFO	Listening on 127.0.0.1:58230
+1702904676692	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileCPBhWL"
+*** You are running in headless mode.
+1702904677743	Marionette	INFO	Marionette enabled
+1702904677753	Marionette	INFO	Listening on port 58244
+Read port: 58244
+1702904678005	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileCPBhWL\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702904688179	Marionette	INFO	Stopped listening on port 58244
+1702904693350	geckodriver	INFO	Listening on 127.0.0.1:58375
+1702904695922	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileETt5mK"
+*** You are running in headless mode.
+1702904696670	Marionette	INFO	Marionette enabled
+1702904696677	Marionette	INFO	Listening on port 58390
+Read port: 58390
+1702904696848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileETt5mK\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702904708564	Marionette	INFO	Stopped listening on port 58390
+[Parent 15572, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1702904834955	geckodriver	INFO	Listening on 127.0.0.1:58597
+1702904837955	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile3UD3TC"
+*** You are running in headless mode.
+1702904839069	Marionette	INFO	Marionette enabled
+1702904839084	Marionette	INFO	Listening on port 58611
+Read port: 58611
+1702904839213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile3UD3TC\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702904846436	Marionette	INFO	Stopped listening on port 58611
+1702904849323	geckodriver	INFO	Listening on 127.0.0.1:58727
+1702904852130	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileRuqzZ9"
+*** You are running in headless mode.
+1702904852990	Marionette	INFO	Marionette enabled
+1702904852999	Marionette	INFO	Listening on port 58741
+Read port: 58741
+1702904853188	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileRuqzZ9\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702904863816	Marionette	INFO	Stopped listening on port 58741
+1702904867044	geckodriver	INFO	Listening on 127.0.0.1:58860
+1702904870057	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilepUBMwY"
+*** You are running in headless mode.
+1702904870786	Marionette	INFO	Marionette enabled
+1702904870793	Marionette	INFO	Listening on port 58874
+Read port: 58874
+1702904870961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilepUBMwY\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702904880611	Marionette	INFO	Stopped listening on port 58874
+1702905200540	geckodriver	INFO	Listening on 127.0.0.1:59244
+1702905203679	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileAWiMa4"
+*** You are running in headless mode.
+1702905204951	Marionette	INFO	Marionette enabled
+1702905204974	Marionette	INFO	Listening on port 59257
+Read port: 59257
+1702905205224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileAWiMa4\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702905228655	Marionette	INFO	Stopped listening on port 59257
+1702905230964	geckodriver	INFO	Listening on 127.0.0.1:59380
+1702905233854	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileeQoUO5"
+*** You are running in headless mode.
+1702905234491	Marionette	INFO	Marionette enabled
+1702905234504	Marionette	INFO	Listening on port 59393
+Read port: 59393
+1702905234662	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileeQoUO5\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702905253463	Marionette	INFO	Stopped listening on port 59393
+1702905255918	geckodriver	INFO	Listening on 127.0.0.1:59509
+1702905259010	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileJDmPqi"
+*** You are running in headless mode.
+1702905259748	Marionette	INFO	Marionette enabled
+1702905259760	Marionette	INFO	Listening on port 59522
+Read port: 59522
+1702905259952	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileJDmPqi\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702905278897	Marionette	INFO	Stopped listening on port 59522
+1702905429842	geckodriver	INFO	Listening on 127.0.0.1:59727
+1702905432972	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileZ77BVs"
+*** You are running in headless mode.
+1702905434045	Marionette	INFO	Marionette enabled
+1702905434056	Marionette	INFO	Listening on port 59740
+Read port: 59740
+1702905434277	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileZ77BVs\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702905455009	Marionette	INFO	Stopped listening on port 59740
+1702905458037	geckodriver	INFO	Listening on 127.0.0.1:59877
+1702905460994	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileRe1xXX"
+*** You are running in headless mode.
+1702905461836	Marionette	INFO	Marionette enabled
+1702905461841	Marionette	INFO	Listening on port 59890
+Read port: 59890
+1702905461938	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileRe1xXX\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702905481081	Marionette	INFO	Stopped listening on port 59890
+1702905483784	geckodriver	INFO	Listening on 127.0.0.1:60009
+1702905486685	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiledo9OCY"
+*** You are running in headless mode.
+1702905487741	Marionette	INFO	Marionette enabled
+1702905487754	Marionette	INFO	Listening on port 60023
+Read port: 60023
+1702905487993	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiledo9OCY\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702905507075	Marionette	INFO	Stopped listening on port 60023
+1702905541525	geckodriver	INFO	Listening on 127.0.0.1:60163
+1702905544618	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile7vSmC5"
+*** You are running in headless mode.
+1702905545517	Marionette	INFO	Marionette enabled
+1702905545523	Marionette	INFO	Listening on port 60178
+Read port: 60178
+1702905545633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile7vSmC5\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702905563066	Marionette	INFO	Stopped listening on port 60178
+1702905565446	geckodriver	INFO	Listening on 127.0.0.1:60296
+1702905568335	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileoZV5q9"
+*** You are running in headless mode.
+1702905569012	Marionette	INFO	Marionette enabled
+1702905569019	Marionette	INFO	Listening on port 60309
+Read port: 60309
+1702905569395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileoZV5q9\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702905588056	Marionette	INFO	Stopped listening on port 60309
+1702905591045	geckodriver	INFO	Listening on 127.0.0.1:60424
+1702905593863	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiledAfO52"
+*** You are running in headless mode.
+1702905594865	Marionette	INFO	Marionette enabled
+1702905594869	Marionette	INFO	Listening on port 60438
+Read port: 60438
+1702905595172	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiledAfO52\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702905627323	Marionette	INFO	Stopped listening on port 60438
+1702906430964	geckodriver	INFO	Listening on 127.0.0.1:61140
+1702906434073	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileEvOJHO"
+*** You are running in headless mode.
+1702906434706	Marionette	INFO	Marionette enabled
+1702906434712	Marionette	INFO	Listening on port 61153
+Read port: 61153
+1702906434886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileEvOJHO\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://sp0.baidu.com/6r1_czmhAB63otqbppnN2DJv/sp, line 1: SyntaxError: expected expression, got '<'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702906443812	Marionette	INFO	Stopped listening on port 61153
+1702906447187	geckodriver	INFO	Listening on 127.0.0.1:61263
+1702906450028	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileCLjBak"
+*** You are running in headless mode.
+1702906450833	Marionette	INFO	Marionette enabled
+1702906450838	Marionette	INFO	Listening on port 61280
+Read port: 61280
+1702906451070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileCLjBak\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702906459601	Marionette	INFO	Stopped listening on port 61280
+[Parent 10636, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1702906462557	geckodriver	INFO	Listening on 127.0.0.1:61389
+1702906465549	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilec1csHo"
+*** You are running in headless mode.
+1702906466286	Marionette	INFO	Marionette enabled
+1702906466296	Marionette	INFO	Listening on port 61403
+Read port: 61403
+1702906466474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilec1csHo\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702906477051	Marionette	INFO	Stopped listening on port 61403
+[Parent 11988, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1702990373342	geckodriver	INFO	Listening on 127.0.0.1:62513
+1702990376402	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileEHxj82"
+*** You are running in headless mode.
+1702990376950	Marionette	INFO	Marionette enabled
+1702990376956	Marionette	INFO	Listening on port 62526
+Read port: 62526
+1702990377242	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileEHxj82\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702990384541	Marionette	INFO	Stopped listening on port 62526
+[Parent 6672, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1702990387031	geckodriver	INFO	Listening on 127.0.0.1:62640
+1702990389896	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileDdgnmg"
+*** You are running in headless mode.
+1702990390430	Marionette	INFO	Marionette enabled
+1702990390435	Marionette	INFO	Listening on port 62652
+Read port: 62652
+1702990390540	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileDdgnmg\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702990396852	Marionette	INFO	Stopped listening on port 62652
+1702990399709	geckodriver	INFO	Listening on 127.0.0.1:62751
+1702990402172	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileiPxXob"
+*** You are running in headless mode.
+1702990402727	Marionette	INFO	Marionette enabled
+1702990402731	Marionette	INFO	Listening on port 62770
+Read port: 62770
+1702990402987	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileiPxXob\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702990410773	Marionette	INFO	Stopped listening on port 62770
+1702990466594	geckodriver	INFO	Listening on 127.0.0.1:62940
+1702990469646	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile1a0BzT"
+*** You are running in headless mode.
+1702990470112	Marionette	INFO	Marionette enabled
+1702990470117	Marionette	INFO	Listening on port 62957
+Read port: 62957
+1702990470353	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile1a0BzT\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702990476908	Marionette	INFO	Stopped listening on port 62957
+1702990478813	geckodriver	INFO	Listening on 127.0.0.1:63063
+1702990481865	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileLbZnv8"
+*** You are running in headless mode.
+1702990482212	Marionette	INFO	Marionette enabled
+1702990482216	Marionette	INFO	Listening on port 63075
+Read port: 63075
+1702990482445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileLbZnv8\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702990490340	Marionette	INFO	Stopped listening on port 63075
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Lenovo\AppData\Local\Temp\rust_mozprofileLbZnv8\protections.sqlite
+1702990493297	geckodriver	INFO	Listening on 127.0.0.1:63209
+1702990496298	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileVvBEjI"
+*** You are running in headless mode.
+1702990496714	Marionette	INFO	Marionette enabled
+1702990496719	Marionette	INFO	Listening on port 63236
+Read port: 63236
+1702990496828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileVvBEjI\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702990503972	Marionette	INFO	Stopped listening on port 63236
+1702991780440	geckodriver	INFO	Listening on 127.0.0.1:63915
+1702991783508	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileaInnOo"
+*** You are running in headless mode.
+1702991784179	Marionette	INFO	Marionette enabled
+1702991784186	Marionette	INFO	Listening on port 63926
+Read port: 63926
+1702991784388	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileaInnOo\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702991792252	Marionette	INFO	Stopped listening on port 63926
+1702991794816	geckodriver	INFO	Listening on 127.0.0.1:64041
+1702991797675	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilezS1F6P"
+*** You are running in headless mode.
+1702991798235	Marionette	INFO	Marionette enabled
+1702991798240	Marionette	INFO	Listening on port 64054
+Read port: 64054
+1702991798494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilezS1F6P\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702991805739	Marionette	INFO	Stopped listening on port 64054
+1702991807881	geckodriver	INFO	Listening on 127.0.0.1:64168
+1702991810798	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileQI9xPx"
+*** You are running in headless mode.
+1702991811288	Marionette	INFO	Marionette enabled
+1702991811293	Marionette	INFO	Listening on port 64181
+Read port: 64181
+1702991811526	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileQI9xPx\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702991817701	Marionette	INFO	Stopped listening on port 64181
+1702991891816	geckodriver	INFO	Listening on 127.0.0.1:64336
+1702991894496	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileBkH8iN"
+*** You are running in headless mode.
+1702991895214	Marionette	INFO	Marionette enabled
+1702991895220	Marionette	INFO	Listening on port 64368
+Read port: 64368
+1702991895358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileBkH8iN\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702991902859	Marionette	INFO	Stopped listening on port 64368
+1702991905122	geckodriver	INFO	Listening on 127.0.0.1:64470
+1702991908032	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile0ioaME"
+*** You are running in headless mode.
+1702991908382	Marionette	INFO	Marionette enabled
+1702991908386	Marionette	INFO	Listening on port 64486
+Read port: 64486
+1702991908624	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile0ioaME\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702991915043	Marionette	INFO	Stopped listening on port 64486
+1702991917190	geckodriver	INFO	Listening on 127.0.0.1:64594
+1702991920106	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileVTv1UO"
+*** You are running in headless mode.
+1702991920622	Marionette	INFO	Marionette enabled
+1702991920626	Marionette	INFO	Listening on port 64610
+Read port: 64610
+1702991920711	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileVTv1UO\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702991928724	Marionette	INFO	Stopped listening on port 64610
+1702993786952	geckodriver	INFO	Listening on 127.0.0.1:49494
+1702993790002	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileT2evHp"
+*** You are running in headless mode.
+1702993790761	Marionette	INFO	Marionette enabled
+1702993790768	Marionette	INFO	Listening on port 49508
+Read port: 49508
+1702993790881	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileT2evHp\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702993797983	Marionette	INFO	Stopped listening on port 49508
+1702993800640	geckodriver	INFO	Listening on 127.0.0.1:49608
+1702993803615	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileIIBxPF"
+*** You are running in headless mode.
+1702993803983	Marionette	INFO	Marionette enabled
+1702993803988	Marionette	INFO	Listening on port 49621
+Read port: 49621
+1702993804185	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileIIBxPF\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702993810809	Marionette	INFO	Stopped listening on port 49621
+1702993812807	geckodriver	INFO	Listening on 127.0.0.1:49746
+1702993815826	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiler425qP"
+*** You are running in headless mode.
+1702993816188	Marionette	INFO	Marionette enabled
+1702993816193	Marionette	INFO	Listening on port 49761
+Read port: 49761
+1702993816440	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiler425qP\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702993822450	Marionette	INFO	Stopped listening on port 49761
+1702994032590	geckodriver	INFO	Listening on 127.0.0.1:50002
+1702994035661	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileXhxMe9"
+*** You are running in headless mode.
+1702994036055	Marionette	INFO	Marionette enabled
+1702994036059	Marionette	INFO	Listening on port 50015
+Read port: 50015
+1702994036241	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileXhxMe9\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702994043622	Marionette	INFO	Stopped listening on port 50015
+1702994045516	geckodriver	INFO	Listening on 127.0.0.1:50112
+1702994048525	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilekkjL2f"
+*** You are running in headless mode.
+1702994048912	Marionette	INFO	Marionette enabled
+1702994048916	Marionette	INFO	Listening on port 50126
+Read port: 50126
+1702994049086	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilekkjL2f\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702994055950	Marionette	INFO	Stopped listening on port 50126
+1702994058074	geckodriver	INFO	Listening on 127.0.0.1:50246
+1702994061063	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilezH1y3C"
+*** You are running in headless mode.
+1702994061447	Marionette	INFO	Marionette enabled
+1702994061452	Marionette	INFO	Listening on port 50260
+Read port: 50260
+1702994061651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilezH1y3C\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702994068654	Marionette	INFO	Stopped listening on port 50260
+1702994102309	geckodriver	INFO	Listening on 127.0.0.1:50395
+1702994105373	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileULWAvt"
+*** You are running in headless mode.
+1702994105732	Marionette	INFO	Marionette enabled
+1702994105736	Marionette	INFO	Listening on port 50413
+Read port: 50413
+1702994105977	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileULWAvt\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702994113398	Marionette	INFO	Stopped listening on port 50413
+[Parent 11936, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1702994115372	geckodriver	INFO	Listening on 127.0.0.1:50515
+1702994118443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileSXteCp"
+*** You are running in headless mode.
+1702994118796	Marionette	INFO	Marionette enabled
+1702994118800	Marionette	INFO	Listening on port 50528
+Read port: 50528
+1702994119036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileSXteCp\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702994125345	Marionette	INFO	Stopped listening on port 50528
+1702994127216	geckodriver	INFO	Listening on 127.0.0.1:50640
+1702994130284	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileKCjMFF"
+*** You are running in headless mode.
+1702994130652	Marionette	INFO	Marionette enabled
+1702994130656	Marionette	INFO	Listening on port 50654
+Read port: 50654
+1702994130917	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileKCjMFF\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702994137457	Marionette	INFO	Stopped listening on port 50654
+1702994254243	geckodriver	INFO	Listening on 127.0.0.1:50850
+1702994257322	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileQ9ccRr"
+*** You are running in headless mode.
+1702994257681	Marionette	INFO	Marionette enabled
+1702994257686	Marionette	INFO	Listening on port 50863
+Read port: 50863
+1702994257924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileQ9ccRr\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702994290240	Marionette	INFO	Stopped listening on port 50863
+1702994292151	geckodriver	INFO	Listening on 127.0.0.1:51054
+1702994295174	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileD5YraY"
+*** You are running in headless mode.
+1702994295530	Marionette	INFO	Marionette enabled
+1702994295535	Marionette	INFO	Listening on port 51068
+Read port: 51068
+1702994295775	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileD5YraY\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702994302964	Marionette	INFO	Stopped listening on port 51068
+1702994304831	geckodriver	INFO	Listening on 127.0.0.1:51174
+1702994307878	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile9DDYM8"
+*** You are running in headless mode.
+1702994308242	Marionette	INFO	Marionette enabled
+1702994308246	Marionette	INFO	Listening on port 51187
+Read port: 51187
+1702994308471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile9DDYM8\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702994314471	Marionette	INFO	Stopped listening on port 51187
+1702994360769	geckodriver	INFO	Listening on 127.0.0.1:51333
+1702994363816	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileZw3xIr"
+*** You are running in headless mode.
+1702994364163	Marionette	INFO	Marionette enabled
+1702994364168	Marionette	INFO	Listening on port 51347
+Read port: 51347
+1702994364403	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileZw3xIr\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702994397406	Marionette	INFO	Stopped listening on port 51347
+1702994399298	geckodriver	INFO	Listening on 127.0.0.1:51542
+1702994402328	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileeCAmwU"
+*** You are running in headless mode.
+1702994402755	Marionette	INFO	Marionette enabled
+1702994402761	Marionette	INFO	Listening on port 51556
+Read port: 51556
+1702994402871	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileeCAmwU\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702994410345	Marionette	INFO	Stopped listening on port 51556
+1702994412208	geckodriver	INFO	Listening on 127.0.0.1:51677
+1702994415261	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile9H7xzr"
+*** You are running in headless mode.
+1702994415635	Marionette	INFO	Marionette enabled
+1702994415639	Marionette	INFO	Listening on port 51690
+Read port: 51690
+1702994415867	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile9H7xzr\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702994422726	Marionette	INFO	Stopped listening on port 51690
+1702994450448	geckodriver	INFO	Listening on 127.0.0.1:51802
+1702994453495	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileBifKy5"
+*** You are running in headless mode.
+1702994453855	Marionette	INFO	Marionette enabled
+1702994453859	Marionette	INFO	Listening on port 51815
+Read port: 51815
+1702994454091	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileBifKy5\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702994487880	Marionette	INFO	Stopped listening on port 51815
+1702994489869	geckodriver	INFO	Listening on 127.0.0.1:52007
+1702994492930	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileGITcG0"
+*** You are running in headless mode.
+1702994493347	Marionette	INFO	Marionette enabled
+1702994493352	Marionette	INFO	Listening on port 52020
+Read port: 52020
+1702994493437	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileGITcG0\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702994500979	Marionette	INFO	Stopped listening on port 52020
+1702994502830	geckodriver	INFO	Listening on 127.0.0.1:52128
+1702994505884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilewduR7J"
+*** You are running in headless mode.
+1702994506245	Marionette	INFO	Marionette enabled
+1702994506249	Marionette	INFO	Listening on port 52142
+Read port: 52142
+1702994506484	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilewduR7J\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702994513828	Marionette	INFO	Stopped listening on port 52142
+1702994524750	geckodriver	INFO	Listening on 127.0.0.1:52265
+1702994527868	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilePpFjYL"
+*** You are running in headless mode.
+1702994528270	Marionette	INFO	Marionette enabled
+1702994528275	Marionette	INFO	Listening on port 52278
+Read port: 52278
+1702994528365	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilePpFjYL\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702994561311	Marionette	INFO	Stopped listening on port 52278
+1702994563397	geckodriver	INFO	Listening on 127.0.0.1:52463
+1702994566437	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileCWL9hJ"
+*** You are running in headless mode.
+1702994566795	Marionette	INFO	Marionette enabled
+1702994566799	Marionette	INFO	Listening on port 52475
+Read port: 52475
+1702994567037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileCWL9hJ\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702994573955	Marionette	INFO	Stopped listening on port 52475
+1702994575689	geckodriver	INFO	Listening on 127.0.0.1:52569
+1702994578788	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileWROx6t"
+*** You are running in headless mode.
+1702994579175	Marionette	INFO	Marionette enabled
+1702994579179	Marionette	INFO	Listening on port 52582
+Read port: 52582
+1702994579413	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileWROx6t\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1702994586952	Marionette	INFO	Stopped listening on port 52582
+1703163315110	geckodriver	INFO	Listening on 127.0.0.1:53330
+1703163318136	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileT3RKeC"
+*** You are running in headless mode.
+1703163319000	Marionette	INFO	Marionette enabled
+1703163319009	Marionette	INFO	Listening on port 53342
+Read port: 53342
+1703163319142	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileT3RKeC\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1703163360624	Marionette	INFO	Stopped listening on port 53342
+1703163364183	geckodriver	INFO	Listening on 127.0.0.1:53512
+1703163367220	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileHK6CJT"
+*** You are running in headless mode.
+1703163368208	Marionette	INFO	Marionette enabled
+1703163368221	Marionette	INFO	Listening on port 53524
+Read port: 53524
+1703163368557	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileHK6CJT\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1703163376929	Marionette	INFO	Stopped listening on port 53524
+1703163379543	geckodriver	INFO	Listening on 127.0.0.1:53612
+1703163382613	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileL8QHtE"
+*** You are running in headless mode.
+1703163383267	Marionette	INFO	Marionette enabled
+1703163383272	Marionette	INFO	Listening on port 53624
+Read port: 53624
+1703163383361	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileL8QHtE\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1703163390176	Marionette	INFO	Stopped listening on port 53624
+[Parent 8336, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

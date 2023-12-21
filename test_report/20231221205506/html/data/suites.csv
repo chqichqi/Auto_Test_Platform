@@ -1,0 +1,10 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Thu Dec 21 20:55:51 CST 2023","Thu Dec 21 20:55:55 CST 2023","4528","my_selenium_test.venv.lib.site-packages.seleniumrunner-0.0.1-py3.7.egg.seleniumrunner.test_case","这是套件","Test_Case_Class","","","test_start[test_web医院端V1.3.0.0_百度搜索功能--成都2.yaml]","
+        唯一的pytest测试方法 -- 利用pytest参数化机制来执行不同的用例
+        "
+"broken","Thu Dec 21 20:56:24 CST 2023","Thu Dec 21 20:56:29 CST 2023","5027","my_selenium_test.venv.lib.site-packages.seleniumrunner-0.0.1-py3.7.egg.seleniumrunner.test_case","这是套件","Test_Case_Class","","","test_start[test_web医院端V1.3.0.0_百度搜索功能--成都3.yaml]","
+        唯一的pytest测试方法 -- 利用pytest参数化机制来执行不同的用例
+        "
+"broken","Thu Dec 21 20:55:35 CST 2023","Thu Dec 21 20:55:39 CST 2023","4383","my_selenium_test.venv.lib.site-packages.seleniumrunner-0.0.1-py3.7.egg.seleniumrunner.test_case","这是套件","Test_Case_Class","","","test_start[test_web医院端V1.3.0.0_百度搜索功能--成都.yaml]","
+        唯一的pytest测试方法 -- 利用pytest参数化机制来执行不同的用例
+        "

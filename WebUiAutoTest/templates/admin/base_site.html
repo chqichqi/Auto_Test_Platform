@@ -1,0 +1,16 @@
+
+{% extends "admin/base_site.html" %}
+
+{% csrf_token %}
+
+{% block extrastyle %}
+    {{ block.super }}
+    <link rel="stylesheet" type="text/css" href="{% static 'WebUiAutoTest/static/modal.css' %}">
+{% endblock %}
+
+
+{% block extrahead %}
+    {{ block.super }}
+    <script src=“https://code.jquery.com/jquery-3.5.1.min.js”></script>
+    <script type="text/javascript" src="{% static 'WebUiAutoTest/static/modal.js' %}"></script>
+{% endblock %}
