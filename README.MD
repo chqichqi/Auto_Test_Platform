@@ -44,75 +44,35 @@
 - 作者：陈强
 - 联系方式: 49983655@qq.com
 
-# 平台需要创建的数据表
-## 1、项目管理表
+## 平台需要创建的数据表
+### 1、项目管理表
     - 项目名称、项目负责人、项目描述、创建时间
-    - CREATE TABLE `webuiautotest_product` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `itemName` varchar(100) NOT NULL,
-  `itemDesc` varchar(200) DEFAULT NULL,
-  `itemManager` varchar(30) DEFAULT NULL,
-  `createTime` datetime(6) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
-SET FOREIGN_KEY_CHECKS=1;
+    - CREATE TABLE `webuiautotest_product` (`id` bigint(20) NOT NULL AUTO_INCREMENT,`itemName` varchar(100) NOT NULL,`itemDesc` varchar(200) DEFAULT NULL,`itemManager` varchar(30) DEFAULT NULL, `createTime` datetime(6) NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;SET FOREIGN_KEY_CHECKS=1;
     
-## 2、服务器HUB管理表
+### 2、服务器HUB管理表
     - 服务器名称、服务器地址、创建时间
-    - CREATE TABLE `webuiautotest_seleniumhubserver` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `serverName` varchar(100) NOT NULL,
-  `serverType` varchar(20) NOT NULL,
-  `serverAddress` varchar(200) DEFAULT NULL,
-  `serverPort` int(11) DEFAULT NULL,
-  `createTime` datetime(6) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
-SET FOREIGN_KEY_CHECKS=1;
+    - CREATE TABLE `webuiautotest_seleniumhubserver` (`id` bigint(20) NOT NULL AUTO_INCREMENT, `serverName` varchar(100) NOT NULL,`serverType` varchar(20) NOT NULL,`serverAddress` varchar(200) DEFAULT NULL,`serverPort` int(11) DEFAULT NULL,`createTime` datetime(6) NOT NULL,PRIMARY KEY (`id`)) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;SET FOREIGN_KEY_CHECKS=1;
 
-## 3、用例管理表
+### 3、用例管理表
     - 用例编号、用例名称（主键）、前置条件（外键索引）、浏览器类型（外键索引）、后置条件（外键索引）、执行结果、执行时间、所属项目（外键索引）
-    - CREATE TABLE `webuiautotest_webcase` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `caseName` varchar(100) NOT NULL,
-  `browser` varchar(50) NOT NULL,
-  `FrontPostManager_id` bigint(20) DEFAULT NULL,
-  `Product_id` bigint(20) NOT NULL,
-  `SeleniumHubServer_id` bigint(20) NOT NULL,
-  `created_time` datetime(6) NOT NULL,
-  `headless` varchar(20) NOT NULL,
-  PRIMARY KEY (`id`),
-  KEY `WebUiAtuoTest_webcas_FrontPostManager_id_631681cb_fk_WebUiAtuo` (`FrontPostManager_id`),
-  KEY `WebUiAtuoTest_webcas_Product_id_d6b90e52_fk_WebUiAtuo` (`Product_id`),
-  KEY `WebUiAtuoTest_webcas_SeleniumHubServer_id_d2f2492d_fk_WebUiAtuo` (`SeleniumHubServer_id`),
-  CONSTRAINT `WebUiAtuoTest_webcas_FrontPostManager_id_631681cb_fk_WebUiAtuo` FOREIGN KEY (`FrontPostManager_id`) REFERENCES `webuiautotest_frontpostmanager` (`id`),
-  CONSTRAINT `WebUiAtuoTest_webcas_Product_id_d6b90e52_fk_WebUiAtuo` FOREIGN KEY (`Product_id`) REFERENCES `webuiautotest_product` (`id`),
-  CONSTRAINT `WebUiAtuoTest_webcas_SeleniumHubServer_id_d2f2492d_fk_WebUiAtuo` FOREIGN KEY (`SeleniumHubServer_id`) REFERENCES `webuiautotest_seleniumhubserver` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8;
-SET FOREIGN_KEY_CHECKS=1;
+    - CREATE TABLE `webuiautotest_webcase` (`id` bigint(20) NOT NULL AUTO_INCREMENT, `caseName` varchar(100) NOT NULL, `browser` varchar(50) NOT NULL,`FrontPostManager_id` bigint(20) DEFAULT NULL, `Product_id` bigint(20) NOT NULL, `SeleniumHubServer_id` bigint(20) NOT NULL, `created_time` datetime(6) NOT NULL, `headless` varchar(20) NOT NULL,PRIMARY KEY (`id`), KEY `WebUiAtuoTest_webcas_FrontPostManager_id_631681cb_fk_WebUiAtuo` (`FrontPostManager_id`), KEY `WebUiAtuoTest_webcas_Product_id_d6b90e52_fk_WebUiAtuo` (`Product_id`), KEY `WebUiAtuoTest_webcas_SeleniumHubServer_id_d2f2492d_fk_WebUiAtuo` (`SeleniumHubServer_id`), CONSTRAINT `WebUiAtuoTest_webcas_FrontPostManager_id_631681cb_fk_WebUiAtuo` FOREIGN KEY (`FrontPostManager_id`) REFERENCES `webuiautotest_frontpostmanager` (`id`), CONSTRAINT `WebUiAtuoTest_webcas_Product_id_d6b90e52_fk_WebUiAtuo` FOREIGN KEY (`Product_id`) REFERENCES `webuiautotest_product` (`id`), CONSTRAINT `WebUiAtuoTest_webcas_SeleniumHubServer_id_d2f2492d_fk_WebUiAtuo` FOREIGN KEY (`SeleniumHubServer_id`) REFERENCES `webuiautotest_seleniumhubserver` (`id`)) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8;SET FOREIGN_KEY_CHECKS=1;
 
     
     - 将：用例执行步骤单独成表
     - 用例名称（外键）、步骤顺序、操作关键字、元素名称、操作数据、操作描述
+    - sql:略；
     
     - 将：前置条件、后置条件单独成表
     - 前/后置名称（主键）、描述
+    - sql:略；
     
     - 将：前/后置条件要执行步骤单独成表
     - 用例名称（外键）、步骤顺序、操作关键字、元素名称、操作数据、操作描述
+    - sql:略；
     
-## 4、测试报告管理表
+### 4、测试报告管理表
     - 测试报告标题、测试日期、报告类型、报告详情等
-    - CREATE TABLE `simpleui_app_testreport` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `title` varchar(1024) NOT NULL,
-  `report_type` varchar(200) DEFAULT NULL,
-  `desc` varchar(1024) NOT NULL,
-  `report_detail` varchar(1024) NOT NULL,
-  `created_time` datetime(6) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=349 DEFAULT CHARSET=utf8;
-SET FOREIGN_KEY_CHECKS=1;
+    - CREATE TABLE `simpleui_app_testreport` (  `id` bigint(20) NOT NULL AUTO_INCREMENT, `title` varchar(1024) NOT NULL, `report_type` varchar(200) DEFAULT NULL, `desc` varchar(1024) NOT NULL,  `report_detail` varchar(1024) NOT NULL,  `created_time` datetime(6) NOT NULL,  PRIMARY KEY (`id`) ) ENGINE=InnoDB AUTO_INCREMENT=349 DEFAULT CHARSET=utf8; SET FOREIGN_KEY_CHECKS=1;
     
     
     
